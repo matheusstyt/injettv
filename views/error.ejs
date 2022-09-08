@@ -1,0 +1,35 @@
+<div class="error-box">
+    <h1>Sem dados a apresentar (consulte Suporte TI em caso de dúvidas)</h1>
+    <h2><%= error %></h2>
+
+     <h2><%= error.stack %></h2> 
+</div>
+<script>
+        setInterval(() => window.location.reload(), 15000);
+</script>
+<style>
+    .error-box{
+        margin: 10% 0;
+        padding: 0;        
+        background-color: rgb(235, 142, 142);
+        width: 100%;
+        height: 50vh;
+        padding: 5% 0;
+    }
+    h1{
+        text-align: center;
+        font-family: 'Consolas';
+        color: rgb(33, 33, 33);
+    }
+    h2{
+        text-align: center;
+        font-family: 'Consolas';
+        color: rgb(33, 33, 33);
+    }
+    p{
+        text-align: center;
+        font-family: 'Consolas';
+        color: rgb(33, 33, 33);
+        font-size: 4em;}
+
+</style>

@@ -1,0 +1,25 @@
+<service>
+	<id>injettv_mondial.exe</id>
+	<name>InjetTv_Mondial</name>
+	<description>Dashboard do InjetTv-Web</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<logmode>rotate</logmode>
+	<argument>--harmony</argument>
+	<argument>C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www</argument>
+	<argument>--log</argument>
+	<argument>InjetTv_Mondial wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<stoptimeout>30sec</stoptimeout>
+	<workingdirectory>C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial</workingdirectory>
+</service>

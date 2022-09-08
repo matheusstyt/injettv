@@ -1,0 +1,664 @@
+2020-07-17 08:55:53 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-17 08:55:53 - Started 10368
+2020-07-26 06:45:32 - Stopping _injettv_mondial_.exe
+2020-07-26 06:45:32 - ProcessKill 10368
+2020-07-26 06:45:37 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-07-26 17:04:27 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-07-26 17:04:31 - Started 2708
+2020-10-05 12:06:26 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-10-05 12:06:26 - Started 10964
+2020-10-05 15:29:02 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-10-05 15:29:02 - Started 9820
+2020-10-26 14:58:42 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-10-26 14:58:42 - Started 12184
+2020-11-01 07:41:53 - Stopping _injettv_mondial_.exe
+2020-11-01 07:41:53 - ProcessKill 12184
+2020-11-01 07:41:54 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2020-11-01 11:41:26 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2020-11-01 11:41:28 - Started 4072
+2021-01-01 19:07:46 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-01 19:07:50 - Started 2604
+2021-01-01 19:07:56 - Stopping _injettv_mondial_.exe
+2021-01-01 19:07:56 - ProcessKill 2604
+2021-01-01 19:07:56 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-01-01 19:11:35 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-01 19:11:38 - Started 3624
+2021-01-10 21:24:10 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-01-10 21:24:12 - Started 3940
+2021-02-14 21:46:38 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-02-14 21:46:40 - Started 3396
+2021-05-14 22:26:44 - Stopping _injettv_mondial_.exe
+2021-05-14 22:26:44 - Finished _injettv_mondial_.exe
+2021-05-14 22:28:31 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-05-14 22:28:33 - Started 3572
+2021-07-05 18:30:46 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-07-05 18:30:48 - Started 4828
+2021-08-13 03:00:17 - Stopping _injettv_mondial_.exe
+2021-08-13 03:00:17 - Finished _injettv_mondial_.exe
+2021-08-13 03:03:40 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-08-13 03:03:42 - Started 4852
+2021-08-14 16:05:33 - Stopping _injettv_mondial_.exe
+2021-08-14 16:05:33 - ProcessKill 4852
+2021-08-14 16:05:34 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-08-14 16:07:07 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-08-14 16:07:09 - Started 4632
+2021-08-15 06:07:03 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-08-15 06:07:07 - Started 4536
+2021-08-22 00:31:23 - Stopping _injettv_mondial_.exe
+2021-08-22 00:31:23 - ProcessKill 4536
+2021-08-22 00:31:24 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-08-22 00:33:44 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-08-22 00:33:47 - Started 4244
+2021-08-22 01:33:04 - Stopping _injettv_mondial_.exe
+2021-08-22 01:33:04 - ProcessKill 4244
+2021-08-22 01:33:06 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-08-22 01:34:47 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-08-22 01:34:47 - Started 4516
+2021-08-23 14:17:50 - Stopping _injettv_mondial_.exe
+2021-08-23 14:17:50 - ProcessKill 4516
+2021-08-23 14:17:51 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-08-23 14:19:46 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-08-23 14:19:47 - Started 4304
+2021-08-26 12:03:43 - Stopping _injettv_mondial_.exe
+2021-08-26 12:03:43 - ProcessKill 4304
+2021-08-26 12:03:44 - Found child process: 2336 Name: conhost.exe
+2021-08-26 12:03:44 - Found child process: 5616 Name: node.exe
+2021-08-26 12:03:44 - Stopping process 2336
+2021-08-26 12:03:44 - Send SIGINT 2336
+2021-08-26 12:03:44 - SIGINT to 2336 failed - Killing as fallback
+2021-08-26 12:03:45 - Stopping process 5616
+2021-08-26 12:03:45 - Send SIGINT 5616
+2021-08-26 12:03:45 - SIGINT to 5616 failed - Killing as fallback
+2021-08-26 12:03:45 - Stopping process 4304
+2021-08-26 12:03:45 - Send SIGINT 4304
+2021-08-26 12:03:45 - SIGINT to 4304 failed - Killing as fallback
+2021-08-26 12:03:45 - Finished _injettv_mondial_.exe
+2021-08-26 15:25:07 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-08-26 15:25:07 - Started 11348
+2021-10-22 17:36:11 - Stopping _injettv_mondial_.exe
+2021-10-22 17:36:11 - Finished _injettv_mondial_.exe
+2021-10-22 17:38:30 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-10-22 17:38:33 - Started 5060
+2021-10-29 17:09:04 - Stopping _injettv_mondial_.exe
+2021-10-29 17:09:04 - ProcessKill 5060
+2021-10-29 17:09:07 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-10-29 17:11:54 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-10-29 17:11:57 - Started 5264
+2021-10-30 06:11:07 - Stopping _injettv_mondial_.exe
+2021-10-30 06:11:07 - ProcessKill 5264
+2021-10-30 06:11:08 - Found child process: 5296 Name: conhost.exe
+2021-10-30 06:11:08 - Found child process: 6052 Name: node.exe
+2021-10-30 06:11:09 - Stopping process 5296
+2021-10-30 06:11:09 - Send SIGINT 5296
+2021-10-30 06:11:09 - SIGINT to 5296 failed - Killing as fallback
+2021-10-30 06:11:09 - Stopping process 6052
+2021-10-30 06:11:09 - Send SIGINT 6052
+2021-10-30 06:11:09 - SIGINT to 6052 failed - Killing as fallback
+2021-10-30 06:11:09 - Stopping process 5264
+2021-10-30 06:11:09 - Send SIGINT 5264
+2021-10-30 06:11:09 - SIGINT to 5264 failed - Killing as fallback
+2021-10-30 06:11:09 - Finished _injettv_mondial_.exe
+2021-10-30 06:11:10 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-10-30 06:11:10 - Started 2736
+2021-10-30 06:13:42 - Stopping _injettv_mondial_.exe
+2021-10-30 06:13:42 - ProcessKill 2736
+2021-10-30 06:13:43 - Found child process: 8404 Name: conhost.exe
+2021-10-30 06:13:43 - Found child process: 7472 Name: node.exe
+2021-10-30 06:13:43 - Stopping process 8404
+2021-10-30 06:13:43 - Send SIGINT 8404
+2021-10-30 06:13:43 - SIGINT to 8404 failed - Killing as fallback
+2021-10-30 06:13:44 - Stopping process 7472
+2021-10-30 06:13:44 - Send SIGINT 7472
+2021-10-30 06:13:44 - SIGINT to 7472 failed - Killing as fallback
+2021-10-30 06:13:44 - Stopping process 2736
+2021-10-30 06:13:44 - Send SIGINT 2736
+2021-10-30 06:13:44 - SIGINT to 2736 failed - Killing as fallback
+2021-10-30 06:13:44 - Finished _injettv_mondial_.exe
+2021-10-30 06:13:57 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-10-30 06:13:57 - Started 9120
+2021-11-03 17:31:29 - Stopping _injettv_mondial_.exe
+2021-11-03 17:31:29 - ProcessKill 9120
+2021-11-03 17:31:30 - Found child process: 7784 Name: conhost.exe
+2021-11-03 17:31:30 - Found child process: 7392 Name: node.exe
+2021-11-03 17:31:30 - Stopping process 7784
+2021-11-03 17:31:30 - Send SIGINT 7784
+2021-11-03 17:31:30 - SIGINT to 7784 failed - Killing as fallback
+2021-11-03 17:31:30 - Stopping process 7392
+2021-11-03 17:31:30 - Send SIGINT 7392
+2021-11-03 17:31:30 - SIGINT to 7392 failed - Killing as fallback
+2021-11-03 17:31:30 - Stopping process 9120
+2021-11-03 17:31:30 - Send SIGINT 9120
+2021-11-03 17:31:30 - SIGINT to 9120 failed - Killing as fallback
+2021-11-03 17:31:30 - Finished _injettv_mondial_.exe
+2021-11-03 17:35:23 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-11-03 17:35:26 - Started 5920
+2021-11-05 06:41:22 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-11-05 06:41:24 - Started 5792
+2021-11-15 04:42:54 - Stopping _injettv_mondial_.exe
+2021-11-15 04:42:54 - ProcessKill 5792
+2021-11-15 04:42:55 - Found child process: 5796 Name: conhost.exe
+2021-11-15 04:42:55 - Found child process: 6204 Name: node.exe
+2021-11-15 04:42:55 - Stopping process 5796
+2021-11-15 04:42:55 - Send SIGINT 5796
+2021-11-15 04:42:56 - SIGINT to 5796 failed - Killing as fallback
+2021-11-15 04:42:56 - Stopping process 6204
+2021-11-15 04:42:56 - Send SIGINT 6204
+2021-11-15 04:42:56 - SIGINT to 6204 failed - Killing as fallback
+2021-11-15 04:42:56 - Stopping process 5792
+2021-11-15 04:42:56 - Send SIGINT 5792
+2021-11-15 04:42:56 - SIGINT to 5792 failed - Killing as fallback
+2021-11-15 04:42:56 - Finished _injettv_mondial_.exe
+2021-11-15 16:14:07 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-11-15 16:14:12 - Started 992
+2021-11-30 15:26:58 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-11-30 15:27:09 - Started 4316
+2021-11-30 19:01:21 - Stopping _injettv_mondial_.exe
+2021-11-30 19:01:21 - ProcessKill 4316
+2021-11-30 19:01:22 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2021-11-30 19:03:49 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-11-30 19:03:51 - Started 6260
+2021-12-02 12:10:27 - Stopping _injettv_mondial_.exe
+2021-12-02 12:10:27 - ProcessKill 6260
+2021-12-02 12:10:28 - Found child process: 6284 Name: conhost.exe
+2021-12-02 12:10:28 - Found child process: 6972 Name: node.exe
+2021-12-02 12:10:28 - Stopping process 6284
+2021-12-02 12:10:28 - Send SIGINT 6284
+2021-12-02 12:10:28 - SIGINT to 6284 failed - Killing as fallback
+2021-12-02 12:10:29 - Stopping process 6972
+2021-12-02 12:10:29 - Send SIGINT 6972
+2021-12-02 12:10:29 - SIGINT to 6972 failed - Killing as fallback
+2021-12-02 12:10:29 - Stopping process 6260
+2021-12-02 12:10:29 - Send SIGINT 6260
+2021-12-02 12:10:29 - SIGINT to 6260 failed - Killing as fallback
+2021-12-02 12:10:29 - Finished _injettv_mondial_.exe
+2021-12-02 12:10:33 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-12-02 12:10:33 - Started 12900
+2021-12-23 16:24:29 - Stopping _injettv_mondial_.exe
+2021-12-23 16:24:29 - ProcessKill 12900
+2021-12-23 16:24:30 - Found child process: 11140 Name: conhost.exe
+2021-12-23 16:24:30 - Found child process: 8692 Name: node.exe
+2021-12-23 16:24:31 - Stopping process 11140
+2021-12-23 16:24:31 - Send SIGINT 11140
+2021-12-23 16:24:31 - SIGINT to 11140 failed - Killing as fallback
+2021-12-23 16:24:32 - Stopping process 8692
+2021-12-23 16:24:32 - Send SIGINT 8692
+2021-12-23 16:24:32 - SIGINT to 8692 failed - Killing as fallback
+2021-12-23 16:24:32 - Stopping process 12900
+2021-12-23 16:24:32 - Send SIGINT 12900
+2021-12-23 16:24:32 - SIGINT to 12900 failed - Killing as fallback
+2021-12-23 16:24:32 - Finished _injettv_mondial_.exe
+2021-12-23 16:24:37 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-12-23 16:24:38 - Started 3348
+2021-12-23 16:30:02 - Stopping _injettv_mondial_.exe
+2021-12-23 16:30:02 - ProcessKill 3348
+2021-12-23 16:30:02 - Found child process: 12800 Name: conhost.exe
+2021-12-23 16:30:02 - Found child process: 13740 Name: node.exe
+2021-12-23 16:30:03 - Stopping process 12800
+2021-12-23 16:30:03 - Send SIGINT 12800
+2021-12-23 16:30:03 - SIGINT to 12800 failed - Killing as fallback
+2021-12-23 16:30:04 - Stopping process 13740
+2021-12-23 16:30:04 - Send SIGINT 13740
+2021-12-23 16:30:04 - SIGINT to 13740 failed - Killing as fallback
+2021-12-23 16:30:04 - Stopping process 3348
+2021-12-23 16:30:04 - Send SIGINT 3348
+2021-12-23 16:30:04 - SIGINT to 3348 failed - Killing as fallback
+2021-12-23 16:30:04 - Finished _injettv_mondial_.exe
+2021-12-23 16:30:07 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2021-12-23 16:30:07 - Started 9376
+2022-02-13 21:46:26 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-02-13 21:46:35 - Started 6132
+2022-02-13 20:27:08 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-02-13 20:27:17 - Started 5416
+2022-02-20 05:14:07 - Stopping _injettv_mondial_.exe
+2022-02-20 05:14:07 - ProcessKill 5416
+2022-02-20 05:14:07 - Found child process: 5440 Name: conhost.exe
+2022-02-20 05:14:07 - Found child process: 5376 Name: node.exe
+2022-02-20 05:14:07 - Stopping process 5440
+2022-02-20 05:14:07 - Send SIGINT 5440
+2022-02-20 05:14:08 - SIGINT to 5440 failed - Killing as fallback
+2022-02-20 05:14:08 - Stopping process 5376
+2022-02-20 05:14:08 - Send SIGINT 5376
+2022-02-20 05:14:08 - SIGINT to 5376 failed - Killing as fallback
+2022-02-20 05:14:08 - Stopping process 5416
+2022-02-20 05:14:08 - Send SIGINT 5416
+2022-02-20 05:14:08 - SIGINT to 5416 failed - Killing as fallback
+2022-02-20 05:14:08 - Finished _injettv_mondial_.exe
+2022-02-20 11:48:45 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-02-20 11:48:47 - Started 6088
+2022-02-21 09:36:41 - Stopping _injettv_mondial_.exe
+2022-02-21 09:36:41 - ProcessKill 6088
+2022-02-21 09:36:42 - Found child process: 6096 Name: conhost.exe
+2022-02-21 09:36:42 - Found child process: 5764 Name: node.exe
+2022-02-21 09:36:42 - Stopping process 6096
+2022-02-21 09:36:42 - Send SIGINT 6096
+2022-02-21 09:36:42 - SIGINT to 6096 failed - Killing as fallback
+2022-02-21 09:36:43 - Stopping process 5764
+2022-02-21 09:36:43 - Send SIGINT 5764
+2022-02-21 09:36:43 - SIGINT to 5764 failed - Killing as fallback
+2022-02-21 09:36:43 - Stopping process 6088
+2022-02-21 09:36:43 - Send SIGINT 6088
+2022-02-21 09:36:43 - SIGINT to 6088 failed - Killing as fallback
+2022-02-21 09:36:43 - Finished _injettv_mondial_.exe
+2022-02-21 09:36:44 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-02-21 09:36:44 - Started 11612
+2022-03-14 07:40:25 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-03-14 07:40:26 - Started 5580
+2022-03-14 10:23:36 - Stopping _injettv_mondial_.exe
+2022-03-14 10:23:36 - ProcessKill 5580
+2022-03-14 10:23:38 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-03-14 10:27:51 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-03-14 10:27:52 - Started 5812
+2022-03-14 11:04:25 - Stopping _injettv_mondial_.exe
+2022-03-14 11:04:25 - ProcessKill 5812
+2022-03-14 11:04:27 - Found child process: 5820 Name: conhost.exe
+2022-03-14 11:04:27 - Found child process: 1812 Name: node.exe
+2022-03-14 11:04:27 - Stopping process 5820
+2022-03-14 11:04:27 - Send SIGINT 5820
+2022-03-14 11:04:27 - SIGINT to 5820 failed - Killing as fallback
+2022-03-14 11:04:28 - Stopping process 1812
+2022-03-14 11:04:28 - Send SIGINT 1812
+2022-03-14 11:04:28 - SIGINT to 1812 failed - Killing as fallback
+2022-03-14 11:04:28 - Stopping process 5812
+2022-03-14 11:04:28 - Send SIGINT 5812
+2022-03-14 11:04:28 - SIGINT to 5812 failed - Killing as fallback
+2022-03-14 11:04:28 - Finished _injettv_mondial_.exe
+2022-03-14 11:04:31 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-03-14 11:04:31 - Started 2836
+2022-03-14 11:10:19 - Stopping _injettv_mondial_.exe
+2022-03-14 11:10:19 - ProcessKill 2836
+2022-03-14 11:10:20 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-03-14 11:13:50 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-03-14 11:13:50 - Started 5612
+2022-03-18 09:32:51 - Stopping _injettv_mondial_.exe
+2022-03-18 09:32:51 - ProcessKill 5612
+2022-03-18 09:32:52 - Found child process: 5632 Name: conhost.exe
+2022-03-18 09:32:52 - Found child process: 3668 Name: node.exe
+2022-03-18 09:32:52 - Stopping process 5632
+2022-03-18 09:32:53 - Send SIGINT 5632
+2022-03-18 09:32:53 - SIGINT to 5632 failed - Killing as fallback
+2022-03-18 09:32:53 - Stopping process 3668
+2022-03-18 09:32:53 - Send SIGINT 3668
+2022-03-18 09:32:53 - SIGINT to 3668 failed - Killing as fallback
+2022-03-18 09:32:53 - Stopping process 5612
+2022-03-18 09:32:53 - Send SIGINT 5612
+2022-03-18 09:32:53 - SIGINT to 5612 failed - Killing as fallback
+2022-03-18 09:32:53 - Finished _injettv_mondial_.exe
+2022-03-18 09:32:59 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-03-18 09:33:01 - Started 1216
+2022-03-18 09:34:13 - Stopping _injettv_mondial_.exe
+2022-03-18 09:34:13 - ProcessKill 1216
+2022-03-18 09:34:13 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-03-18 09:36:18 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-03-18 09:36:18 - Started 5676
+2022-03-18 09:53:32 - Stopping _injettv_mondial_.exe
+2022-03-18 09:53:32 - ProcessKill 5676
+2022-03-18 09:53:34 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-03-18 09:56:45 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-03-18 09:56:45 - Started 5932
+2022-03-18 10:16:54 - Stopping _injettv_mondial_.exe
+2022-03-18 10:16:54 - ProcessKill 5932
+2022-03-18 10:16:55 - Found child process: 5944 Name: conhost.exe
+2022-03-18 10:16:55 - Found child process: 6432 Name: node.exe
+2022-03-18 10:16:56 - Stopping process 5944
+2022-03-18 10:16:56 - Send SIGINT 5944
+2022-03-18 10:16:56 - SIGINT to 5944 failed - Killing as fallback
+2022-03-18 10:16:56 - Stopping process 6432
+2022-03-18 10:16:56 - Send SIGINT 6432
+2022-03-18 10:16:56 - SIGINT to 6432 failed - Killing as fallback
+2022-03-18 10:16:56 - Stopping process 5932
+2022-03-18 10:16:56 - Send SIGINT 5932
+2022-03-18 10:16:56 - SIGINT to 5932 failed - Killing as fallback
+2022-03-18 10:16:56 - Finished _injettv_mondial_.exe
+2022-03-18 10:19:36 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-03-18 10:19:36 - Started 5656
+2022-04-06 08:04:37 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-04-06 08:04:37 - Started 23844
+2022-04-30 11:37:35 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-04-30 11:37:36 - Started 12872
+2022-04-30 12:01:49 - Stopping _injettv_mondial_.exe
+2022-04-30 12:01:49 - ProcessKill 12872
+2022-04-30 12:01:51 - Found child process: 38044 Name: conhost.exe
+2022-04-30 12:01:51 - Found child process: 27056 Name: node.exe
+2022-04-30 12:01:51 - Stopping process 38044
+2022-04-30 12:01:51 - Send SIGINT 38044
+2022-04-30 12:01:51 - SIGINT to 38044 failed - Killing as fallback
+2022-04-30 12:01:52 - Stopping process 27056
+2022-04-30 12:01:52 - Send SIGINT 27056
+2022-04-30 12:01:52 - SIGINT to 27056 failed - Killing as fallback
+2022-04-30 12:01:52 - Stopping process 12872
+2022-04-30 12:01:52 - Send SIGINT 12872
+2022-04-30 12:01:52 - SIGINT to 12872 failed - Killing as fallback
+2022-04-30 12:01:52 - Finished _injettv_mondial_.exe
+2022-04-30 12:01:52 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-04-30 12:01:52 - Started 31548
+2022-04-30 12:05:16 - Stopping _injettv_mondial_.exe
+2022-04-30 12:05:16 - ProcessKill 31548
+2022-04-30 12:05:16 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-04-30 12:09:23 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-04-30 12:09:24 - Started 6212
+2022-04-30 12:42:34 - Stopping _injettv_mondial_.exe
+2022-04-30 12:42:34 - ProcessKill 6212
+2022-04-30 12:42:35 - Found child process: 6224 Name: conhost.exe
+2022-04-30 12:42:35 - Found child process: 7548 Name: node.exe
+2022-04-30 12:42:36 - Stopping process 6224
+2022-04-30 12:42:36 - Send SIGINT 6224
+2022-04-30 12:42:36 - SIGINT to 6224 failed - Killing as fallback
+2022-04-30 12:42:36 - Stopping process 7548
+2022-04-30 12:42:36 - Send SIGINT 7548
+2022-04-30 12:42:36 - SIGINT to 7548 failed - Killing as fallback
+2022-04-30 12:42:36 - Stopping process 6212
+2022-04-30 12:42:36 - Send SIGINT 6212
+2022-04-30 12:42:36 - SIGINT to 6212 failed - Killing as fallback
+2022-04-30 12:42:36 - Finished _injettv_mondial_.exe
+2022-04-30 12:42:36 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-04-30 12:42:36 - Started 4956
+2022-04-30 12:45:17 - Stopping _injettv_mondial_.exe
+2022-04-30 12:45:17 - ProcessKill 4956
+2022-04-30 12:45:18 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-04-30 12:48:27 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-04-30 12:48:27 - Started 5304
+2022-04-30 13:46:17 - Stopping _injettv_mondial_.exe
+2022-04-30 13:46:17 - ProcessKill 5304
+2022-04-30 13:46:19 - Found child process: 2656 Name: conhost.exe
+2022-04-30 13:46:19 - Found child process: 5328 Name: node.exe
+2022-04-30 13:46:19 - Stopping process 2656
+2022-04-30 13:46:19 - Send SIGINT 2656
+2022-04-30 13:46:19 - SIGINT to 2656 failed - Killing as fallback
+2022-04-30 13:46:19 - Stopping process 5328
+2022-04-30 13:46:19 - Send SIGINT 5328
+2022-04-30 13:46:19 - SIGINT to 5328 failed - Killing as fallback
+2022-04-30 13:46:19 - Stopping process 5304
+2022-04-30 13:46:19 - Send SIGINT 5304
+2022-04-30 13:46:19 - SIGINT to 5304 failed - Killing as fallback
+2022-04-30 13:46:19 - Finished _injettv_mondial_.exe
+2022-04-30 13:46:20 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-04-30 13:46:20 - Started 10228
+2022-04-30 13:47:23 - Stopping _injettv_mondial_.exe
+2022-04-30 13:47:23 - ProcessKill 10228
+2022-04-30 13:47:24 - Shutdown exception
+Message:A system shutdown is in progress. (Exception from HRESULT: 0x8007045B)
+Stacktrace:   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.WrapperService.GetChildPids(Int32 pid)
+   at winsw.WrapperService.StopProcessAndChildren(Int32 pid)
+   at winsw.WrapperService.StopIt()
+   at winsw.WrapperService.OnShutdown()
+2022-04-30 13:51:17 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-04-30 13:51:17 - Started 5640
+2022-06-05 03:19:56 - Stopping _injettv_mondial_.exe
+2022-06-05 03:19:56 - Finished _injettv_mondial_.exe
+2022-06-05 03:23:45 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-05 03:23:48 - Started 5304
+2022-06-14 09:22:19 - Stopping _injettv_mondial_.exe
+2022-06-14 09:22:19 - ProcessKill 5304
+2022-06-14 09:22:21 - Found child process: 1008 Name: conhost.exe
+2022-06-14 09:22:21 - Found child process: 33860 Name: node.exe
+2022-06-14 09:22:22 - Stopping process 1008
+2022-06-14 09:22:22 - Send SIGINT 1008
+2022-06-14 09:22:22 - SIGINT to 1008 failed - Killing as fallback
+2022-06-14 09:22:22 - Stopping process 33860
+2022-06-14 09:22:22 - Send SIGINT 33860
+2022-06-14 09:22:22 - SIGINT to 33860 failed - Killing as fallback
+2022-06-14 09:22:22 - Stopping process 5304
+2022-06-14 09:22:22 - Send SIGINT 5304
+2022-06-14 09:22:22 - SIGINT to 5304 failed - Killing as fallback
+2022-06-14 09:22:22 - Finished _injettv_mondial_.exe
+2022-06-14 09:23:16 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-14 09:23:18 - Started 24384
+2022-06-14 09:27:45 - Stopping _injettv_mondial_.exe
+2022-06-14 09:27:45 - ProcessKill 24384
+2022-06-14 09:33:41 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-14 09:33:42 - Started 2588
+2022-06-20 08:20:23 - Stopping _injettv_mondial_.exe
+2022-06-20 08:20:23 - ProcessKill 2588
+2022-06-20 08:20:24 - Found child process: 5884 Name: conhost.exe
+2022-06-20 08:20:24 - Found child process: 7236 Name: node.exe
+2022-06-20 08:20:24 - Stopping process 5884
+2022-06-20 08:20:24 - Send SIGINT 5884
+2022-06-20 08:20:24 - SIGINT to 5884 failed - Killing as fallback
+2022-06-20 08:20:25 - Stopping process 7236
+2022-06-20 08:20:25 - Send SIGINT 7236
+2022-06-20 08:20:25 - SIGINT to 7236 failed - Killing as fallback
+2022-06-20 08:20:25 - Stopping process 2588
+2022-06-20 08:20:25 - Send SIGINT 2588
+2022-06-20 08:20:25 - SIGINT to 2588 failed - Killing as fallback
+2022-06-20 08:20:25 - Finished _injettv_mondial_.exe
+2022-06-20 08:26:23 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-20 08:26:25 - Started 6620
+2022-06-29 15:07:19 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-06-29 15:07:20 - Started 16796
+2022-07-11 09:50:48 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-11 09:50:48 - Started 16104
+2022-07-12 08:44:43 - Stopping _injettv_mondial_.exe
+2022-07-12 08:44:43 - ProcessKill 16104
+2022-07-12 08:44:44 - Found child process: 33312 Name: conhost.exe
+2022-07-12 08:44:44 - Found child process: 22388 Name: node.exe
+2022-07-12 08:44:45 - Stopping process 33312
+2022-07-12 08:44:45 - Send SIGINT 33312
+2022-07-12 08:44:45 - SIGINT to 33312 failed - Killing as fallback
+2022-07-12 08:44:45 - Stopping process 22388
+2022-07-12 08:44:45 - Send SIGINT 22388
+2022-07-12 08:44:45 - SIGINT to 22388 failed - Killing as fallback
+2022-07-12 08:44:45 - Stopping process 16104
+2022-07-12 08:44:45 - Send SIGINT 16104
+2022-07-12 08:44:45 - SIGINT to 16104 failed - Killing as fallback
+2022-07-12 08:44:45 - Finished _injettv_mondial_.exe
+2022-07-12 09:07:14 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-12 09:07:14 - Started 43536
+2022-07-12 10:26:53 - Stopping _injettv_mondial_.exe
+2022-07-12 10:26:53 - ProcessKill 43536
+2022-07-12 10:26:53 - Found child process: 12696 Name: conhost.exe
+2022-07-12 10:26:53 - Found child process: 38044 Name: node.exe
+2022-07-12 10:26:53 - Stopping process 12696
+2022-07-12 10:26:53 - Send SIGINT 12696
+2022-07-12 10:26:53 - SIGINT to 12696 failed - Killing as fallback
+2022-07-12 10:26:54 - Stopping process 38044
+2022-07-12 10:26:54 - Send SIGINT 38044
+2022-07-12 10:26:54 - SIGINT to 38044 failed - Killing as fallback
+2022-07-12 10:26:54 - Stopping process 43536
+2022-07-12 10:26:54 - Send SIGINT 43536
+2022-07-12 10:26:54 - SIGINT to 43536 failed - Killing as fallback
+2022-07-12 10:26:54 - Finished _injettv_mondial_.exe
+2022-07-12 10:30:14 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-12 10:30:14 - Started 34064
+2022-07-12 14:34:53 - Stopping _injettv_mondial_.exe
+2022-07-12 14:34:53 - ProcessKill 34064
+2022-07-12 14:34:53 - Found child process: 19876 Name: conhost.exe
+2022-07-12 14:34:53 - Found child process: 32512 Name: node.exe
+2022-07-12 14:34:54 - Stopping process 19876
+2022-07-12 14:34:54 - Send SIGINT 19876
+2022-07-12 14:34:54 - SIGINT to 19876 failed - Killing as fallback
+2022-07-12 14:34:54 - Stopping process 32512
+2022-07-12 14:34:54 - Send SIGINT 32512
+2022-07-12 14:34:54 - SIGINT to 32512 failed - Killing as fallback
+2022-07-12 14:34:54 - Stopping process 34064
+2022-07-12 14:34:54 - Send SIGINT 34064
+2022-07-12 14:34:54 - SIGINT to 34064 failed - Killing as fallback
+2022-07-12 14:34:54 - Finished _injettv_mondial_.exe
+2022-07-12 14:38:47 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-12 14:38:47 - Started 14608
+2022-07-12 15:27:57 - Stopping _injettv_mondial_.exe
+2022-07-12 15:27:57 - ProcessKill 14608
+2022-07-12 15:27:58 - Found child process: 22128 Name: conhost.exe
+2022-07-12 15:27:58 - Found child process: 29060 Name: node.exe
+2022-07-12 15:27:58 - Stopping process 22128
+2022-07-12 15:27:58 - Send SIGINT 22128
+2022-07-12 15:27:58 - SIGINT to 22128 failed - Killing as fallback
+2022-07-12 15:27:59 - Stopping process 29060
+2022-07-12 15:27:59 - Send SIGINT 29060
+2022-07-12 15:27:59 - SIGINT to 29060 failed - Killing as fallback
+2022-07-12 15:27:59 - Stopping process 14608
+2022-07-12 15:27:59 - Send SIGINT 14608
+2022-07-12 15:27:59 - SIGINT to 14608 failed - Killing as fallback
+2022-07-12 15:27:59 - Finished _injettv_mondial_.exe
+2022-07-12 15:27:59 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-12 15:27:59 - Started 3256
+2022-07-14 13:28:18 - Stopping _injettv_mondial_.exe
+2022-07-14 13:28:18 - ProcessKill 3256
+2022-07-14 13:28:19 - Found child process: 14656 Name: conhost.exe
+2022-07-14 13:28:19 - Found child process: 30628 Name: node.exe
+2022-07-14 13:28:20 - Stopping process 14656
+2022-07-14 13:28:20 - Send SIGINT 14656
+2022-07-14 13:28:20 - SIGINT to 14656 failed - Killing as fallback
+2022-07-14 13:28:20 - Stopping process 30628
+2022-07-14 13:28:20 - Send SIGINT 30628
+2022-07-14 13:28:20 - SIGINT to 30628 failed - Killing as fallback
+2022-07-14 13:28:20 - Stopping process 3256
+2022-07-14 13:28:20 - Send SIGINT 3256
+2022-07-14 13:28:20 - SIGINT to 3256 failed - Killing as fallback
+2022-07-14 13:28:20 - Finished _injettv_mondial_.exe
+2022-07-15 09:26:40 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\node_modules\node-windows\lib\wrapper.js" --file "C:\Program Files (x86)\MAP Cardoso\InjetTv-mondial\bin\www" --log "_InjetTv_Mondial_ wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-07-15 09:26:41 - Started 24212
