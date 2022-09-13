@@ -1,4 +1,21 @@
 @import 'variables';
+html{
+    --tema-padrao: #0077FF;
+    --bg: #FCFCFC;
+    --bg-panel: #EBEBEB;
+    --bg-container: rgba(0, 0, 0, 0.1);
+    --secundary-color: #FCFCFC;
+    --color: rgba(0, 0, 0, 0.8);
+    --color-headings: #0077FF;
+    --color-text: #333333;
+    --color-title: #262626;
+}
+body{
+    background-color: var(--bg);
+}
+h1, h2, h3, h4, h5, h6, p, label, th{
+    color: var(--color-text);
+}
 
 .flex, .descricao {
     display: flex;
@@ -38,7 +55,7 @@ tr{
     font-size: 2em;
 }
 td{
-    text-shadow: 1px 0px rgb(32, 32, 32);
+    text-shadow: 1px 0px var(--color-text);
     
 }
 th, td{

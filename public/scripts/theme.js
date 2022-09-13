@@ -8,9 +8,14 @@ const changeColors = (colors) =>{
          html.style.setProperty(transformKey(key), colors[key])    
             });
 }
-$(document).ready(function(){
-    $('body,html').animate({scrollTop: 500}, 15000); 
-});
+
+// function ScrollingAuto(){
+//     $(document).ready(function(){
+//         $('body,html').animate({scrollTop: 500}, 10000); 
+//     });
+// }
+// setTimeout(ScrollingAuto, 7500);
+
 
 if (localStorage.getItem('theme')) {
 
