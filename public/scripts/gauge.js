@@ -1,4 +1,4 @@
-$('#galpao').text(localStorage.getItem('galpao'));
+$('#galpao').text(sessionStorage.getItem('galpao'));
 $.fn.gauge = function (opts) {
     this.each(function () {
         var $this = $(this),

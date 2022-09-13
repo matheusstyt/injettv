@@ -1,34 +1,32 @@
 
 $(
     () => $('select').formSelect());
-    //req.session.destroy();
 
-
-if (localStorage.getItem('cliente')) {
+if (sessionStorage.getItem('cliente')) {
     
-    if(JSON.parse(localStorage.getItem('cliente')).maquinas == true){
+    if(JSON.parse(sessionStorage.getItem('cliente')).maquinas == true){
         $("#painelMaquinas").prop('checked', true);
     }else{
         $("#painelMaquinas").prop('checked',false)
     }
-    if(JSON.parse(localStorage.getItem('cliente')).produtividade == true){
+    if(JSON.parse(sessionStorage.getItem('cliente')).produtividade == true){
         $("#painelProdutividade").prop('checked', true);
     }else{
         $("#painelProdutividade").prop('checked',false)
     }
-    if(JSON.parse(localStorage.getItem('cliente')).paradas == true){
+    if(JSON.parse(sessionStorage.getItem('cliente')).paradas == true){
         $("#painelParadas").prop('checked', true);
     }else{
         $("#painelParadas").prop('checked',false)
     }
     
-    $('#galpao').val(JSON.parse(localStorage.getItem('cliente')).galpao)
-    $('#preloader').fadeIn().toggleClass('hide');
+    $('#galpao').val(JSON.parse(sessionStorage.getItem('cliente')).galpao)
+    //$('#preloader').fadeIn().toggleClass('hide');
     $('form').unbind('submit').submit();
 
 } else {
     // $('form').ready(function (event) {
-    //     if (localStorage.getItem('cliente')) {
+    //     if (sessionStorage.getItem('cliente')) {
     //         if (!$('#painelProdutividade').is(':checked') && !$('#painelMaquinas').is(':checked') && !$('#painelParadas').is(':checked'))
     //             M.toast({ html: 'Por favor, selecione alguma das opções para exibir o painel!', displayLength: 2000 });
     //         else {
@@ -49,7 +47,7 @@ $('form').submit(function (event) {
         if (!$('#painelProdutividade').is(':checked') && !$('#painelMaquinas').is(':checked') && !$('#painelParadas').is(':checked'))
             M.toast({ html: 'Por favor, selecione ao menos um painel para exibir!', displayLength: 2000 });
         else {
-            $('#preloader').fadeIn().toggleClass('hide');
+            //$('#preloader').fadeIn().toggleClass('hide');
             $(this).unbind('submit').submit();
         };
     } else
@@ -109,9 +107,7 @@ $('#galpao').change(e => {
         cor_fundo: '#ffffff',
         path_logo: ''
     };
-   
-    localStorage.setItem("cliente", JSON.stringify(cliente));
-    console.log(cliente);
+    
     return true;
 
 

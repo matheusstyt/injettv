@@ -16,14 +16,14 @@
 <body >
     <%- include('components/preloader'); %>
     <header class="row center">
-        <span>INJET TV - Painel de Controle</span>
+        <span><h1>INJET TV - Painel de Controle</h1></span>
         <img src="<%=logo%>" alt=Logo >
     </header>
     <main class=container>
         <form id="ok" class="col s12" action="<%=configPath%>/painel/config" method=POST enctype=multipart/form-data>
             <div class=row>
                 <div class="col s12">
-                    <span>Mostrar Telas</span>
+                    <h3>Mostrar Telas</h3>
                 </div>
             </div>
             <div class=row>
@@ -56,7 +56,7 @@
             </div> 
             <div class=row>
                 <div class="col s12">
-                    <span>Mostrar Grupo / Máquinas</span>
+                    <h3>Mostrar Grupo / Máquinas</h3>
                 </div>
                 <div class="input-field col xl6">
                     <select id=galpao name=galpao>
@@ -74,6 +74,35 @@
                     <label>Máquinas</label>
                 </div>
             </div>
+            <div class="row flex">
+                <div >
+                    <div class="col s12">
+                        <h3>DarkMode</h3>
+                    </div>
+                    <label class="toggle" for="myToggle">
+                        <input class="toggle__input" name="theme" type="checkbox" id="myToggle">
+                        <div class="toggle__fill"></div>
+                    </label>
+                </div>
+                <!-- <div>
+                    <h3>Tema</h3>
+                    <input type=color id=cor_fundo value=#0077FF name=cor_fundo>
+                </div> -->
+                <div style="width: 100%;">
+                    <div style="width: 100%;">
+                        <h3>Carregar Logo da Empresa</h3>
+                        <div class="file-field input-field">
+                            <div class="btn-continuar right btn waves-effect waves-light">
+                                <h5>Carregar</h5>
+                                <input name=imagem id=imagem type=file>
+                            </div>
+                            <div class=file-path-wrapper>
+                                <input id=path_logo name=path_logo placeholder="Carregar logo da empresa." class="file-path validate" type=text>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <!-- <div class=row>
                 <div class="input-field col xl12">
                     <span>Cor de Fundo</span>
@@ -81,7 +110,10 @@
                     <button id=btn-cor type=button class="light-blue darken-2 right btn">Aplicar</button>
                 </div>
             </div> -->
-            <span>Carregar Logo da Empresa</span>
+            <div>
+
+            </div>
+            <!-- <h3>Carregar Logo da Empresa</h3>
             <div class="file-field input-field">
                 <div class="light-blue darken-2 right btn waves-effect waves-light">
                     <h6>Carregar</h6>
@@ -90,8 +122,17 @@
                 <div class=file-path-wrapper>
                     <input id=path_logo name=path_logo placeholder="Carregar logo da empresa." class="file-path validate" type=text>
                 </div>
+            </div> -->
+            <!-- <button class="light-blue darken-2 right btn waves-effect waves-light" type=submit id=enviar name=enviar><h6>Continuar</h6></button> -->
+            <div style="display: flex; width: 100%;">
+                <div>
+                    <h3>Tema</h3>
+                    <input type=color id=cor_fundo value=#0077FF name=cor_fundo>
+                </div>
+                <button class="btn-continuar" type=submit id=enviar name=enviar>CONTINUAR</button>
             </div>
-            <button class="light-blue darken-2 right btn waves-effect waves-light" type=submit id=enviar name=enviar><h6>Continuar</h6></button>
+           
+
         </form>
         <%- include('components/footer'); %>
     </main>
@@ -100,5 +141,6 @@
     <script src=/assets/axios.min.js></script>
     <script src=/lib/throttle-debounce.js></script>
     <script src=/scripts/painel.js></script>
+    <script src="/scripts/darkmode.js"></script>
 </body>
 </html>

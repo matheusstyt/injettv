@@ -14,7 +14,7 @@
        
         
     </head>
-    <body style="background-color: <%=cor_fundo%>">
+    <body >
             <img src="<%=logo%>" alt=logo width=100 height=100>
             <main>
                 <div class="row">
@@ -69,18 +69,18 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <thead>
+                     <!-- <thead>
                         <th></th>
                         <% turnos.forEach(function(turno){ %>
                             <th><%=turno.dsTurno%></th>
                         <% }); %>
                         <th>Acumulado mês</th>
-                    </thead>     -->
+                    </thead>      -->
                     <table>
                         <tr>
                             <th></th>
-                            <% turnos.forEach(function(turno){ %>
-                                <th><%=turno.dsTurno%></th>
+                            <% bi.indicadoresTurno.forEach(function(indicadoresTurno){ %>
+                                <th><%=indicadoresTurno.dsTurno%></th>
                             <% }); %>
                             <th>ACUMULADO MÊS</th>
                         </tr>
@@ -90,7 +90,7 @@
                                 <td><%=indicadoresTurno.indicadores.indOEE%>%</td>
                             <% }); %>
                             <td><%=bi.indicadores.indOEE%>%</td>
-                            <td>teste</td>
+                            <td></td>
                         </tr>
                         <tr>
                             <td>% Eficiência</td>
@@ -166,5 +166,6 @@
         <script src=/lib/gauge.js></script>
         <script src=/scripts/gauge.js></script>
         <script src=/scripts/clear.js></script>
+        <script src=/scripts/theme.js></script>
     </body>
 </html>

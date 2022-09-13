@@ -1,3 +1,21 @@
+html{
+    --tema-padrao: #0077FF;
+    --bg: #FCFCFC;
+    --bg-panel: #EBEBEB;
+    --bg-container: rgba(0, 0, 0, 0.1);
+    --secundary-color: #FCFCFC;
+    --color: rgba(0, 0, 0, 0.8);
+    --color-headings: #0077FF;
+    --color-text: #333333;
+    --color-title: #262626;
+}
+body{
+    background-color: var(--bg);
+}
+h1, h2, h3, h4, h5, h6, p, label, tr, td, th{
+    color: var(--color-text);
+}
+
 .flex {
     display: flex;
     .item {
@@ -33,7 +51,7 @@ canvas {
     padding: 10px;
 }
 .speedometer {
-    background-color: #263743;
+    background-color: var(--tema-padrao);
     color: white;
     strong {
         font-size: 40px;

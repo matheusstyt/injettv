@@ -1,10 +1,15 @@
 html {
     width: 100%;
     height: auto;
+    --bg: #FCFCFC;
+    --bg-panel: #EBEBEB;
+    --color-headings: #0077FF;
+    --color-text: #333333;
     body {
         font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
         width: 100%;
         height: 100%;
+        
         .painel {
             position: absolute;
             padding: 15px;

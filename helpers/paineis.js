@@ -7,7 +7,7 @@ module.exports = {
         response.status(500).send('Escolha pelo menos uma tela para prosseguir!');
     },
     hasConfig: (request, response, next) => {
-        console.log(localStorage.getItem('cliente'))
+        console.log(sessionStorage.getItem('cliente'))
         if(request.session.config) next();
         else response.redirect('/painel');
     },
