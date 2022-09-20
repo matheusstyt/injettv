@@ -1,9 +1,9 @@
 var Service = require('node-windows').Service;
 
 var svc = new Service({
-  name:'InjetTv_Mondial',
-  description: 'Dashboard do InjetTv-Web',
-  script: 'C:\\Users\\simone\\Documents\\InjetTv-mondial\\injettv-2\\bin\\daemon'
+  name:'InjetTv_MAP_INNOVATION',
+  description: 'Dashboard do InjetTv-Web 2.0',
+  script: 'C:\\Program Files (x86)\\MAP Cardoso\\injettv-2\\bin\\daemon'
 });
 
 svc.on('install',function(){
