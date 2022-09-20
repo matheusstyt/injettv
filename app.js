@@ -1,6 +1,6 @@
 require('dotenv').config({path: __dirname + '/.env'});
 
-console.log(__dirname)
+//console.log(__dirname)
 const createError = require('http-errors'),
     express = require('express'),
     path = require('path'),
@@ -15,12 +15,6 @@ const createError = require('http-errors'),
     fs = require('fs'),
     axios = require('axios')
     
-
-    
-
-    
-     
-     
 
 logger.token('date', () => {
     let p = new Date().toString().replace(/[A-Z]{3}\+/,'+').split(/ /);
@@ -61,10 +55,11 @@ app
     express.static(__dirname + '/node_modules/materialize-css/dist/'),
     express.static(__dirname + '/node_modules/axios/dist/'),
 ])
+
 .use(uploadFile())
 .use(logger('dev', {skip: (request, response) => response.statusCode < 400}))
 .use(logger('combined', {stream: fs.createWriteStream(path.join(`${__dirname}/logs`, 'access.log'), {flags: 'a'})}))
-.use(session({ secret: 'topzera', proxy: true, resave: true, saveUninitialized: true }))
+.use(session({ secret: 'topzera', proxy: false, resave: false, saveUninitialized: false }))
 .use((request, response, next) => {
     response.header('Access-Control-Allow-Origin', '*');
     response.header('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE');
@@ -76,7 +71,8 @@ appRoutes(app);
 
 app
 .use((req, res, next) => next(createError(404)))
-.use((err, req, res, next) => {
+.use((err, req, res, next) => {    
+     
   res.locals.message = err.message;
   res.locals.error = req.app.get('env') === 'development' ? err : {};
 

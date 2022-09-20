@@ -66,7 +66,7 @@ const express = require('express'),
 // }
 // module.exports = router;
 //}else{
-    console.log("Não Trial")
+    console.log("Rodou")
     router.get('/', (request, response, next) => {
     axios.get(`${process.env.API_URL}/idw/rest/injet/gts/monitorizacao`)
     .then(gts => response.status(200).render('painel', {gts: gts.data.gts, configPath: `${process.env.APP_URL}:${process.env.PORT}`, logo: logo.hasLogo()}))

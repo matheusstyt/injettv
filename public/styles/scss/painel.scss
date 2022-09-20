@@ -76,7 +76,28 @@ button h6 {
     margin: 0 auto;
     border-radius: 3px;
     border: 1px solid var(--tema-padrao);
+    text-shadow: 0px 1px #fff;
     padding: 8px;}
+.btn-continuar:active{
+    background-color: #333333;
+}
+.btn-continuar:hover{
+    border: 1px solid var(--bg);
+
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+.btnP{
+
+    background-color: rgba(41, 116, 238, 0.5);
+    border: 1px solid var(--color-text);
+    font-family: 'Consolas';
+    font-size: 1.1em;
+    padding: 6px 10px;  
+}  
+
 .light-blue.darken-2.right.btn.waves-effect.waves-light {
     width: 88.77px;
     height: 36px;
@@ -123,6 +144,9 @@ title, h2, h3, h4, h5, h6, label, p, input, li, button, span{
 .select-dropdown li.disabled, .select-dropdown li.disabled>span, .select-dropdown li.optgroup {
     color: var(--monocromatic-color);
 }
+.m-right{
+    margin-right: 1em;
+}
 h1{
     color: var(--color-title);
     //margin: 1% auto;
@@ -136,7 +160,7 @@ h3, label{
 .container {
     background-color: var(--bg-container);
     margin: 0 auto;
-    padding: 1em 4em;
+    padding: 0.5em 4em;
     border-radius: 15px;
     display: block;
 }

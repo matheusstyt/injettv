@@ -21,9 +21,24 @@
     </header>
     <main class=container>
         <form id="ok" class="col s12" action="<%=configPath%>/painel/config" method=POST enctype=multipart/form-data>
-            <div class=row>
-                <div class="col s12">
-                    <h3>Mostrar Telas</h3>
+            <h3>Configurações Adicionais</h3>
+            <div class="row" style="display: flex; width: 100%; padding-left: 26px;">
+                <p class="inline-list m-right">
+                    <label>          
+                         <input name=painelSalvarParametros type=checkbox id=painelSalvarParametros > 
+                        <span>Salvar Parâmetros</span>
+                    </label> 
+                </p>
+                <div style="display: flex; margin: 0 auto;">
+                    <div class="btnP waves-effect waves-light m-right" id="btnCarregar" onclick="carregar(event)"><p>Carregar Dados da Ultima Sessão?</p></div>
+                </div>            
+            </div>
+            <div class=row> 
+        
+                <div class="col s12" style="display:flex;">
+                    <div style="width:50%; display: block;" >
+                        <h3>Mostrar Telas</h3>
+                    </div>
                 </div>
             </div>
             <div class=row>
@@ -48,12 +63,12 @@
                     </p>
                 </div>
             </div>
-            <div class=row>
+            <!-- <div class=row>
                 <div class="input-field col xl12">
                     <input placeholder="Tempo de transição da tela, em segundos." type=number id=tempo_trans name=tempo_trans pattern=\d*>
                     <label for=tempo_trans>Tempo de Transição</label>
                 </div>
-            </div> 
+            </div>  -->
             <div class=row>
                 <div class="col s12">
                     <h3>Mostrar Grupo / Máquinas</h3>
@@ -84,15 +99,11 @@
                         <div class="toggle__fill"></div>
                     </label>
                 </div>
-                <!-- <div>
-                    <h3>Tema</h3>
-                    <input type=color id=cor_fundo value=#0077FF name=cor_fundo>
-                </div> -->
                 <div style="width: 100%;">
                     <div style="width: 100%;">
                         <h3>Carregar Logo da Empresa</h3>
                         <div class="file-field input-field">
-                            <div class="btn-continuar right btn waves-effect waves-light">
+                            <div class="btn-continuar right waves-effect waves-light">
                                 <h5>Carregar</h5>
                                 <input name=imagem id=imagem type=file>
                             </div>
@@ -103,33 +114,16 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class=row>
-                <div class="input-field col xl12">
-                    <span>Cor de Fundo</span>
-                    <input type=color id=cor_fundo value=#ffffff name=cor_fundo>
-                    <button id=btn-cor type=button class="light-blue darken-2 right btn">Aplicar</button>
-                </div>
-            </div> -->
             <div>
 
             </div>
-            <!-- <h3>Carregar Logo da Empresa</h3>
-            <div class="file-field input-field">
-                <div class="light-blue darken-2 right btn waves-effect waves-light">
-                    <h6>Carregar</h6>
-                    <input name=imagem id=imagem type=file>
-                </div>
-                <div class=file-path-wrapper>
-                    <input id=path_logo name=path_logo placeholder="Carregar logo da empresa." class="file-path validate" type=text>
-                </div>
-            </div> -->
-            <!-- <button class="light-blue darken-2 right btn waves-effect waves-light" type=submit id=enviar name=enviar><h6>Continuar</h6></button> -->
             <div style="display: flex; width: 100%;">
                 <div>
                     <h3>Tema</h3>
                     <input type=color id=cor_fundo value=#0077FF name=cor_fundo>
                 </div>
-                <button class="btn-continuar" type=submit id=enviar name=enviar>CONTINUAR</button>
+                
+                <button class="btn-continuar waves-effect waves-light" type=submit id=enviar name=enviar>CONTINUAR</button>
             </div>
            
 
@@ -142,5 +136,6 @@
     <script src=/lib/throttle-debounce.js></script>
     <script src=/scripts/painel.js></script>
     <script src="/scripts/darkmode.js"></script>
+    <script src=/scripts/cache.js></script>
 </body>
 </html>

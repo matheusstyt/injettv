@@ -3,6 +3,7 @@ const checkbox = document.querySelector("input[name=theme]");
 const tema = document.querySelector("input[name=cor_fundo]")
 const darkBtn = document.getElementsByName("theme")
 
+
 const getStyle = (element, style) =>
     window
     .getComputedStyle(element)

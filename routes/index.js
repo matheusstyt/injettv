@@ -1,5 +1,5 @@
 const produtividade = require('./produtividade'),
-    login = require('./login'),
+    tela3 = require('./cookies'),
     maquinas = require('./maquinas'),
     painel = require('./painel'),
     injettv = require('./injettv'),
@@ -9,7 +9,7 @@ const produtividade = require('./produtividade'),
 
 module.exports = (app) => {
     app
-    .use('/login', login)
+    .use('/cookies', tela3)
     .use('/produtividade', produtividade)
     .use('/maquinas', maquinas)
     .use('/painel', painel)

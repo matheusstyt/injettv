@@ -4,9 +4,9 @@ const express = require('express'),
     panel = require('./../helpers/paineis'),
     data = require('./../helpers/date'),
     logo = require('./../helpers/logo'),
-    json = require('flatted');
+    json = require('flatted'),
+    legend = require('../public/scripts/legends')
 
-    
 var contador = 0;
 var ptsGlobal;
 var ultimaAtualizacao;
@@ -49,6 +49,7 @@ router
         .then(res => {            
             ptsGlobal = res;
             ultimaAtualizacao = getToday()
+            
             let abaixoMeta = [], semConexao = [], naMeta = [], parada = [], pts = [], pts_ = [];
             let legendaColors1 = [
                 {nome:'Parada', color: '#c0392b'},
@@ -64,7 +65,7 @@ router
                 {nome:'Parada sem Peso na Eficiência', color: 'rgb(235, 23, 192)'},
                 {nome:'Parada não Informada', color: 'rgb(0, 0, 0)'},
                 {nome:'CIP(Controle Início Processo)', color: 'rgb(115, 239, 111)'},
-                {nome:'Sem Ocorrências', color: 'rgb(255, 255, 255)'}
+                {nome:'Sem Ocorrências', color: '#fffff'}
             ]
             res.data.pts.forEach(pt => {
                 if(pt.dsProduto !== undefined) {
@@ -115,6 +116,7 @@ router
             response.status(200).render('maquinas', {
                 colors1: legendaColors1,
                 colors2: legendaColors2,
+                x: 1,
                 pts: pts, 
                 secondsTransition: request.session.cfg.tempo_trans, 
                 cor_fundo: request.session.cfg.cor_fundo, 
@@ -147,7 +149,7 @@ router
                 {nome:'Parada sem Peso na Eficiência', color: 'rgb(235, 23, 192)'},
                 {nome:'Parada não Informada', color: 'rgb(0, 0, 0)'},
                 {nome:'CIP(Controle Início Processo)', color: 'rgb(115, 239, 111)'},
-                {nome:'Sem Ocorrêncis', color: 'write'}
+                {nome:'Sem Ocorrêncis', color: '#fffff'}
         ]
         ptsGlobal.data.pts.forEach(pt => {
           
@@ -200,11 +202,12 @@ router
             }
         }
         console.log('galpao maquinas: ', request.session.cfg.galpao)
+
         contador++;
         response.status(200).render('maquinas', { 
             colors1: legendaColors1,
             colors2: legendaColors2,
-
+            x: 1,
             pts: pts, 
             secondsTransition: request.session.cfg.tempo_trans, 
             cor_fundo: request.session.cfg.cor_fundo, 
