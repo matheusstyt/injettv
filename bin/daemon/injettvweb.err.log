@@ -1,0 +1,144 @@
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\simone\Documents\InjetTv-mondial\injettv\bin\daemon'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\simone\Documents\InjetTv-mondial\injettv\bin\daemon'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\simone\Documents\InjetTv-mondial\injettv\bin\daemon'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+C:\Users\simone\Documents\InjetTv-mondial\injettv\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read properties of null (reading 'send')
+    at process.killkid (C:\Users\simone\Documents\InjetTv-mondial\injettv\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (node:events:513:28)
+    at process.exit (node:internal/process/per_thread:190:15)
+    at monitor (C:\Users\simone\Documents\InjetTv-mondial\injettv\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (C:\Users\simone\Documents\InjetTv-mondial\injettv\node_modules\node-windows\lib\wrapper.js:170:5)
+    at ChildProcess.emit (node:events:513:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\simone\Documents\InjetTv-mondial\injettv\bin\daemon'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\simone\Documents\InjetTv-mondial\injettv\bin\daemon'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\simone\Documents\InjetTv-mondial\injettv\bin\daemon'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+C:\Users\simone\Documents\InjetTv-mondial\injettv\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read properties of null (reading 'send')
+    at process.killkid (C:\Users\simone\Documents\InjetTv-mondial\injettv\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (node:events:513:28)
+    at process.exit (node:internal/process/per_thread:190:15)
+    at monitor (C:\Users\simone\Documents\InjetTv-mondial\injettv\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (C:\Users\simone\Documents\InjetTv-mondial\injettv\node_modules\node-windows\lib\wrapper.js:170:5)
+    at ChildProcess.emit (node:events:513:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\simone\Documents\InjetTv-mondial\injettv\bin\daemon'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\simone\Documents\InjetTv-mondial\injettv\bin\daemon'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+node:internal/modules/cjs/loader:959
+  throw err;
+  ^
+
+Error: Cannot find module 'C:\Users\simone\Documents\InjetTv-mondial\injettv\bin\daemon'
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:956:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:804:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+C:\Users\simone\Documents\InjetTv-mondial\injettv\node_modules\node-windows\lib\wrapper.js:177
+    child.send('shutdown');
+          ^
+
+TypeError: Cannot read properties of null (reading 'send')
+    at process.killkid (C:\Users\simone\Documents\InjetTv-mondial\injettv\node_modules\node-windows\lib\wrapper.js:177:11)
+    at process.emit (node:events:513:28)
+    at process.exit (node:internal/process/per_thread:190:15)
+    at monitor (C:\Users\simone\Documents\InjetTv-mondial\injettv\node_modules\node-windows\lib\wrapper.js:99:17)
+    at ChildProcess.<anonymous> (C:\Users\simone\Documents\InjetTv-mondial\injettv\node_modules\node-windows\lib\wrapper.js:170:5)
+    at ChildProcess.emit (node:events:513:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:291:12)

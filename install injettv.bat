@@ -1,4 +1,4 @@
-cd C:\Program Files (x86)\MAP Cardoso\injettv-2
+cd C:\Users\simone\InjetTv-mondial\injettv
 
 node install_service.js
 

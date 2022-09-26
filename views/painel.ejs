@@ -8,6 +8,7 @@
     <!-- <link href=https://fonts.googleapis.com/icon?family=Material+Icons rel=stylesheet> -->
     <link rel=stylesheet href=/styles/css/painel.css>
     <link rel=stylesheet href=/styles/css/preloader.css>
+    <link rel="shortcut icon" href="../injettv_ico.ico" />
     <title>Injet TV</title>
 </head>
 <script>
@@ -21,16 +22,16 @@
     </header>
     <main class=container>
         <form id="ok" class="col s12" action="<%=configPath%>/painel/config" method=POST enctype=multipart/form-data>
-            <h3>Configurações Adicionais</h3>
-            <div class="row" style="display: flex; width: 100%; padding-left: 26px;">
-                <p class="inline-list m-right">
+            <h3 style="display:none;">Configurações Adicionais</h3>
+            <div class="row" style="display:none; display: flex; width: 100%; padding-left: 26px;">
+                <p class="inline-list m-right" style="display:none;">
                     <label>          
                          <input name=painelSalvarParametros type=checkbox id=painelSalvarParametros > 
                         <span>Salvar Parâmetros</span>
                     </label> 
                 </p>
-                <div style="display: flex; margin: 0 auto;">
-                    <div class="btnP waves-effect waves-light m-right" id="btnCarregar" onclick="carregar(event)"><p>Carregar Dados da Ultima Sessão?</p></div>
+                <div style="display:none; display: flex; margin: 0 auto;">
+                    <div style="display:none;" class="btnP waves-effect waves-light m-right" id="btnCarregar" onclick="carregar(event)"><p>Carregar Dados da Ultima Sessão?</p></div>
                 </div>            
             </div>
             <div class=row> 

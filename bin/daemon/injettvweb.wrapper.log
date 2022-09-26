@@ -1,0 +1,6 @@
+2022-09-26 15:28:32 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\simone\Documents\InjetTv-mondial\injettv\node_modules\node-windows\lib\wrapper.js --file C:\Users\simone\Documents\InjetTv-mondial\injettv\bin\daemon --log "InjetTv Web wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-09-26 15:28:32 - Started 15204
+2022-09-26 15:28:40 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\simone\Documents\InjetTv-mondial\injettv\node_modules\node-windows\lib\wrapper.js --file C:\Users\simone\Documents\InjetTv-mondial\injettv\bin\daemon --log "InjetTv Web wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-09-26 15:28:40 - Started 15180
+2022-09-26 15:28:48 - Starting C:\Program Files\nodejs\node.exe  --harmony C:\Users\simone\Documents\InjetTv-mondial\injettv\node_modules\node-windows\lib\wrapper.js --file C:\Users\simone\Documents\InjetTv-mondial\injettv\bin\daemon --log "InjetTv Web wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-09-26 15:28:48 - Started 15916

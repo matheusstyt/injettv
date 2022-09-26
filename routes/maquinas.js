@@ -65,7 +65,7 @@ router
                 {nome:'Parada sem Peso na Eficiência', color: 'rgb(235, 23, 192)'},
                 {nome:'Parada não Informada', color: 'rgb(0, 0, 0)'},
                 {nome:'CIP(Controle Início Processo)', color: 'rgb(115, 239, 111)'},
-                {nome:'Sem Ocorrências', color: '#fffff'}
+                {nome:'Sem Ocorrências', color: '#ffff'}
             ]
             res.data.pts.forEach(pt => {
                 if(pt.dsProduto !== undefined) {
@@ -149,7 +149,7 @@ router
                 {nome:'Parada sem Peso na Eficiência', color: 'rgb(235, 23, 192)'},
                 {nome:'Parada não Informada', color: 'rgb(0, 0, 0)'},
                 {nome:'CIP(Controle Início Processo)', color: 'rgb(115, 239, 111)'},
-                {nome:'Sem Ocorrêncis', color: '#fffff'}
+                {nome:'Sem Ocorrêncis', color: '#ffff'}
         ]
         ptsGlobal.data.pts.forEach(pt => {
           
