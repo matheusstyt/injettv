@@ -141,7 +141,7 @@ title, h2, h3, h4, h5, h6, label, p, input, li, button, span{
 .dropdown-content li>a, .dropdown-content li>span{
     color: var(--color-text);
 }
-.select-dropdown li.disabled, .select-dropdown li.disabled>span, .select-dropdown li.optgroup {
+.select-dropdown li.enable, .select-dropdown li.enable>span, .select-dropdown li.optgroup {
     color: var(--monocromatic-color);
 }
 .m-right{
@@ -155,7 +155,7 @@ h3, label{
     //color: #000;
 }
 ::placeholder{
-    //color: #333333;
+    color: var(--color-text);
 }
 .container {
     background-color: var(--bg-container);

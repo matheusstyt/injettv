@@ -3,6 +3,7 @@ const express = require('express'),
     axios = require('axios'),
     panel = require('./../helpers/paineis'),
     data = require('./../helpers/date'),
+    time = require('./../helpers/time'),
     logo = require('./../helpers/logo'),
     json = require('flatted'),
     legend = require('../public/scripts/legends')
@@ -113,17 +114,21 @@ router
                 }
             }
             contador++;
+            console.log('time 1 : '+request.session.cfg.tempo_tran)
+            console.log('time 2 : '+request.session.cfg.slide)
             response.status(200).render('maquinas', {
                 colors1: legendaColors1,
                 colors2: legendaColors2,
                 x: 1,
                 pts: pts, 
                 secondsTransition: request.session.cfg.tempo_trans, 
+                slideTransition : request.session.cfg.slide,
                 cor_fundo: request.session.cfg.cor_fundo, 
                 nextPage: panel.switch(request.baseUrl, request.session.paineis), 
                 logo: logo.hasLogo(),
                 ultimaAtualizacao: getToday()
             });
+            //console.log('mauina time : '+slideTransition)
         })
         .catch(error => response.status(500).render('error', {error: error}));
     })
@@ -134,7 +139,7 @@ router
         globalRequest = request;
 
         let abaixoMeta = [], semConexao = [], naMeta = [], parada = [], pts = [], pts_ = [];
-        console.log("Entrou so else");
+        //console.log("Entrou so else");
         let legendaColors1 = [
             {nome:'Parada', color: '#c0392b'},
                 {nome:'Na Meta', color: '#4cd137'},
@@ -161,22 +166,22 @@ router
             if(pt.icone.caminhoIcone.includes('f1c40f') || pt.icone.caminhoIcone.includes('AbaixoMeta')) {     
                 pt.icone.caminhoIcone = '#f1c40f';           
                 abaixoMeta.push(pt);
-                console.log("Tamanho do abaixoMeta:" + abaixoMeta.length);
+                //console.log("Tamanho do abaixoMeta:" + abaixoMeta.length);
             }
             if(pt.icone.caminhoIcone.includes('7f8c8d') || pt.icone.caminhoIcone.includes('SemConexao')) {
                 pt.icone.caminhoIcone = '#7f8c8d';                 
                 semConexao.push(pt);
-                console.log("Tamanho do semConexao:" + semConexao.length);
+                //console.log("Tamanho do semConexao:" + semConexao.length);
             }
             if(pt.icone.caminhoIcone.includes('4cd137') || pt.icone.caminhoIcone.includes('NaMeta')) { 
                 pt.icone.caminhoIcone = '#4cd137';                   
                 naMeta.push(pt);
-                console.log("Tamanho do naMeta:" + naMeta.length);
+                //console.log("Tamanho do naMeta:" + naMeta.length);
             }
             if(pt.icone.caminhoIcone.includes('c0392b') || pt.icone.caminhoIcone.includes('Parada')) {    
                 pt.icone.caminhoIcone = '#c0392b';              
                 parada.push(pt);
-                console.log("Tamanho do parada:" + naMeta.parada);
+                //console.log("Tamanho do parada:" + naMeta.parada);
             }
         });
         pts = pts.concat(naMeta, abaixoMeta, parada, semConexao);
@@ -201,15 +206,18 @@ router
                 pts = pts_;
             }
         }
-        console.log('galpao maquinas: ', request.session.cfg.galpao)
+        //console.log('galpao maquinas: ', request.session.cfg.galpao)
 
         contador++;
+        console.log('time 1 x: '+request.session.cfg.tempo_tran)
+        console.log('time 2 x : '+request.session.cfg.slide)
         response.status(200).render('maquinas', { 
             colors1: legendaColors1,
             colors2: legendaColors2,
             x: 1,
             pts: pts, 
             secondsTransition: request.session.cfg.tempo_trans, 
+            slideTransition : request.session.cfg.slide,
             cor_fundo: request.session.cfg.cor_fundo, 
             nextPage: panel.switch(request.baseUrl, request.session.paineis), 
             logo: logo.hasLogo(),
@@ -237,7 +245,7 @@ router
 
 
 async function maquinasTask(request){   
-    console.log("Entrou na função de thread as " + getToday());
+    //console.log("Entrou na função de thread as " + getToday());
    await axios
    .get(`${process.env.API_URL}/idw/rest/injet/monitorizacao/turnoAtual`)
    .then(turnoAtual => {

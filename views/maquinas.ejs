@@ -16,7 +16,7 @@
         }
     </style>
         <script>
-            let secondsTransition = '<%=secondsTransition%>';
+            let slideTransition = '<%=slideTransition%>';
             let nextPage = '<%=nextPage%>';
         </script>
     </head>
@@ -78,7 +78,7 @@
                                 <th>OEE</th>
                             </tr>
                             <% pts.forEach((pt) => { %>
-                            <tr>
+                            <tr class="teste" id="circle1">
                                 <td><div class="quadrado-icons" style='background-color: <%= pt.icone.caminhoIcone %>'></div></td>
                                 <td><div class="quadrado-icons" style='background-color: <%= pt.icone.corTriangulo %>'></div></td>
                                 <td style="color: <%= pt.icone.caminhoIcone %>"><%= pt.cdPt %></td>

@@ -16,6 +16,7 @@
     </style>
         <script>
             let secondsTransition = '<%=secondsTransition%>';
+            let slideTransition = '<%=slideTransition%>';
             let nextPage = '<%=nextPage%>';
         </script>
     </head>
@@ -38,39 +39,14 @@
                             <th>DURAÇÃO (HH:MM:SS)</th>
                         </tr>
                         <% pts.forEach((pt) => { %>
-                        <tr>
+                        <tr class="teste" id="circle1">
                             <td style="color: <%= pt.cor %>"><b><%= pt.cdPt %></b></td>
                             <td style="color: <%= pt.cor %>"><b><%= pt.descricao %></b></td>
                             <td style="color: <%= pt.cor %>"><b><%= pt.tempo %></b></td>
                         </tr>
                         <% }) %>
                     </table>
-                    <!-- <div class="col l12">
-                        <div class="descricao row valign-wrapper">
-                            <div class="item flex-item-1">
-                                Máquina
-                            </div>
-                            <div class="item flex-item-1">
-                                Descrição
-                            </div>
-                            <div class="item flex-item-1">
-                                Duração (HH:MM:SS)
-                            </div>
-                        </div>
-                        <% pts.forEach((pt) => { %>
-                            <div class="row valign-wrapper flex">
-                                <div class="item flex-item-1" style="color: <%= pt.cor %>">
-                                    <%= pt.cdPt %>
-                                </div>
-                                <div class="item flex-item-1" style="color: <%= pt.cor %>">
-                                    <%= pt.descricao %>
-                                </div>
-                                <div class="item flex-item-1" style="color: <%= pt.cor %>">
-                                    <%= pt.tempo %>
-                                </div>
-                            </div>
-                        <% }) %>
-                    </div> -->
+
                 </div>
             </div>
         </main>

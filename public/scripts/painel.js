@@ -32,7 +32,6 @@ $('form').submit(function (event) {
                 path_logo: '',
                 statusL: statusL
             }; 
-            alert('c'+JSON.stringify(cliente))
             if(Y == 1){
                 setTimeout(() => {
                     document.cookie.split(';').forEach(function(c) {
@@ -40,15 +39,12 @@ $('form').submit(function (event) {
                       });
                 }, 100);
                 setTimeout(() => {
-                    alert('alo')
-                    //localStorage.setItem('client', JSON.stringify(cliente));
                     document.cookie = `cliente=${JSON.stringify(cliente)}; SameSite=None; Secure`;
 
                 }, 200);
 
                 sessionStorage.removeItem("client");
             }else{
-                alert('olo')
                 sessionStorage.setItem('client', JSON.stringify(cliente))
             } 
             $('#preloader').fadeIn().toggleClass('hide');
@@ -81,7 +77,6 @@ $('#galpao').change(e => {
         }
     })
     .then(response => {
-        console.log("gt " + galpaoTemp)
        // $('#preloader').fadeOut().toggleClass('hide');
         response.data.pts.forEach(pt => $('#maquinas').append(`<option value='${pt.cdPt}'>${pt.cdPt}</option>`));
         $('select').formSelect();
@@ -89,20 +84,7 @@ $('#galpao').change(e => {
     .catch(err => {
         M.toast({ html: 'Falha ao carregar máquinas, tente novamente mais tarde. ' + error, displayLength: 2000 })
     })
-    // axios.post('/maquinas/search', {
-    //     galpao: galpaoTemp,
-    //     produtividade: produtividadeTemp,
-    //     maquinas: maquinasTemp,
-    //     paradas: paradasTemp,
 
-    // })
-    //     .then(response => {
-    //         $('#preloader').fadeOut().toggleClass('hide');
-    //         response.data.forEach(pt => $('#maquinas').append(`<option value='${pt.cdPt}'>${pt.cdPt}</option>`));
-    //         $('select').formSelect();
-    //     })
-    //     .catch(error => M.toast({ html: 'Falha ao carregar máquinas, tente novamente mais tarde. ' + error, displayLength: 2000 }));
-        
     var cliente = {
         galpao: $("#galpao").val(),
         produtividade: $('#painelProdutividade').is(':checked'),

@@ -7,10 +7,10 @@ const express = require('express'),
     maquinas = require('./../helpers/maquinas'),
     json = require('flatted');
     
-    console.log("0")
+    //console.log("0")
 
 router.get('/', (request, response) => {
-    console.log("0.1")
+    //console.log("0.1")
     //alert(request.session.cfg.galpao)
     //.log("0.15", request.session.cfg.galpao)
     axios.all([        
@@ -20,11 +20,11 @@ router.get('/', (request, response) => {
     .then(
         axios.spread((paradas, alertas) => {
             
-        console.log("0.4")
+        //console.log("0.4")
         let alerta = [], parada = [], pts = [], pts_ = [];
-        console.log("tamanho paradas: " + paradas.data.paradasGalpao.length);
+        //console.log("tamanho paradas: " + paradas.data.paradasGalpao.length);
         for (var par = 0; par < paradas.data.paradasGalpao.length;par++ ){
-            console.log(paradas.data.paradasGalpao[par])
+            //console.log(paradas.data.paradasGalpao[par])
             parada.push({
                 cdPt: paradas.data.paradasGalpao[par].cdInjetora,
                 tempo: paradas.data.paradasGalpao[par].tempoParado,
@@ -34,7 +34,7 @@ router.get('/', (request, response) => {
         }
         // ultimaAtualizacao = getToday();
         
-        console.log(parada.length)
+        //console.log(parada.length)
        
 
         for (var ale = 0; ale < alertas.data.alertasGalpao.length;ale++ ){
@@ -45,17 +45,17 @@ router.get('/', (request, response) => {
                 descricao: alertas.data.alertasGalpao[ale].dsAlerta,
                 cor: '#ff8b16'
             });
-            console.log(alertas.data[ale])
+            //console.log(alertas.data[ale])
         }
-        console.log("3")
+        //console.log("3")
 
         pts = pts.concat(parada, alerta);
 
         if(typeof request.session.cfg.maquinas === 'string'  ){            
             if (request.session.cfg.maquinas) {
-                console.log("maquina: " + " " + request.session.cfg.maquinas)
+                //console.log("maquina: " + " " + request.session.cfg.maquinas)
                     pts_ = pts_.concat(pts.filter((pt) => {
-                        console.log("cdInjetora: " + " " + pt.cdPt + " == " + request.session.cfg.maquinas )
+                        //console.log("cdInjetora: " + " " + pt.cdPt + " == " + request.session.cfg.maquinas )
                         if (pt.cdPt === request.session.cfg.maquinas)                             
                         return pt;
                     }));
@@ -65,9 +65,9 @@ router.get('/', (request, response) => {
         if(typeof request.session.cfg.maquinas === 'undefined' || typeof request.session.cfg.maquinas === 'object'  ){            
             if (request.session.cfg.maquinas) {
                 request.session.cfg.maquinas.forEach((maquina) => {
-                    console.log("maquina: " + " " + maquina)
+                    //console.log("maquina: " + " " + maquina)
                     pts_ = pts_.concat(pts.filter((pt) => {
-                        console.log("cdInjetora: " + " " + pt.cdPt + " == " + maquina )
+                        //console.log("cdInjetora: " + " " + pt.cdPt + " == " + maquina )
                         if (pt.cdPt === maquina)                             
                         return pt;
                     }));
@@ -75,8 +75,13 @@ router.get('/', (request, response) => {
                 pts = pts_;
             }
         }
-        console.log("4")
-        response.status(200).render('paradas', { pts: pts, secondsTransition: request.session.cfg.tempo_trans, cor_fundo: request.session.cfg.cor_fundo, nextPage: panel.switch(request.baseUrl, request.session.paineis), logo: logo.hasLogo()});
+        //console.log("4")
+        response.status(200).render('paradas', { pts: pts, 
+            secondsTransition: request.session.cfg.tempo_trans, 
+            slideTransition : request.session.cfg.slide,
+            cor_fundo: request.session.cfg.cor_fundo, 
+            nextPage: panel.switch(request.baseUrl, request.session.paineis), 
+            logo: logo.hasLogo()});
 
     }))
     .catch((err) => {
@@ -113,10 +118,10 @@ router.get('/', (request, response, next) => {
                 listaFiltroPosto
             })
             .then(detalheLista => {
-                console.log(detalheLista)
+                //console.log(detalheLista)
                 for (let i = 0; i < detalheLista.data.length; i++) {
                     if(detalheLista == null){
-                        console.log('Fui')
+                        //console.log('Fui')
                     }
                     else{ if(detalheLista.data[i].paradaResumo.dataInicio !== '') {
                         parada.push({
@@ -149,7 +154,13 @@ router.get('/', (request, response, next) => {
                     pts = pts_;
                 }
 
-                response.status(200).render('paradas', { pts: pts, secondsTransition: request.session.cfg.tempo_trans, cor_fundo: request.session.cfg.cor_fundo, nextPage: panel.switch(request.baseUrl, request.session.paineis), logo: logo.hasLogo()});
+                response.status(200).render('paradas', { 
+                    pts: pts, 
+                    secondsTransition: request.session.cfg.tempo_trans, 
+                    slideTransition : request.session.cfg.slide,
+                    cor_fundo: request.session.cfg.cor_fundo, 
+                    nextPage: panel.switch(request.baseUrl, request.session.paineis), 
+                    logo: logo.hasLogo()});
             })
             .catch(console.log('teste 1'));
         })

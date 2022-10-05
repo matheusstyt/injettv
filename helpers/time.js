@@ -1,6 +1,6 @@
 module.exports = {
     getTime:(time) => {
-        console.log("TIME: ", time)
+        // time = 30
         if (time < 15)
             return 15000;
         
@@ -9,6 +9,13 @@ module.exports = {
 
         if(isNaN(time))
             return 15000;
+
+        return time * 1000;
+    },
+    getSlideTime:(time) => {
+    
+        if(!time)
+            return 10000;
 
         return time * 1000;
     }

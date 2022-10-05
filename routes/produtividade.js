@@ -53,14 +53,14 @@ function getToday(){
                 axios
                 .get(ip+`/idw/rest/injet/monitorizacao/turnoAtual`)
                 .then(turnoAtual => {
-                    console.log("Fez chamada de produtividade na pela primeira vez as " + getToday());
+                    //console.log("Fez chamada de produtividade na pela primeira vez as " + getToday());
                    
-                    console.log("Iniciando Chamada pela primeira vez");
-                    console.log(retornaMes())
-                    console.log(`${data.getYear(new Date())}-`+ retornaMes() +`-${data.day(new Date())}`)
-                    console.log(`${data.getYear(new Date())}-${data.getMonth(new Date())}-${data.day(new Date())}`)
-                    console.log(request.session.cfg.galpao)
-                    console.log(turnoAtual.data.cdTurno)
+                    //console.log("Iniciando Chamada pela primeira vez");
+                    //console.log(retornaMes())
+                    //console.log(`${data.getYear(new Date())}-`+ retornaMes() +`-${data.day(new Date())}`)
+                    //console.log(`${data.getYear(new Date())}-${data.getMonth(new Date())}-${data.day(new Date())}`)
+                    //console.log(request.session.cfg.galpao)
+                    //console.log(turnoAtual.data.cdTurno)
                     turnoAtualVar = turnoAtual.data.cdTurno
                     axios
                     .all([
@@ -91,7 +91,7 @@ function getToday(){
                         turnoGlobal = turnos;
                         ultimaAtualizacao = getToday();
                        
-                        console.log("Chamada original "  + velocimetro.data);
+                        //console.log("Chamada original "  + velocimetro.data);
                         //console.log('bi : ', bi)
                         response.status(200).render('produtividade', {
                             velocimetro: velocimetro.data,
@@ -169,7 +169,7 @@ async function produtividadeTask(request){
                         turnoGlobal = turnos;  
                         ultimaAtualizacao = getToday();
                     //console.log('BI : ', bi)
-                    console.log("passou pelo metodo task");
+                    //("passou pelo metodo task");
 
                 }))
                 .catch(errorBI => console.log('teste', errorBI));

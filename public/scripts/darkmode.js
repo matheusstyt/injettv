@@ -10,7 +10,7 @@ const getStyle = (element, style) =>
     .getPropertyValue(style)    
 
 const temaPadrao = getStyle(html, "--tema-padrao");
-console.log('tema cor',temaPadrao)
+////console.log('tema cor',temaPadrao)
 const initialColors = {
     bg: getStyle(html, "--bg"),
     bgPanel: getStyle(html, "--bg-panel"),
@@ -33,7 +33,7 @@ const darkColors = {
     monocromaticColor: "#dddddd",
     ligado: 1
 }
-console.log('colores : ', initialColors);
+//console.log('colores : ', initialColors);
 //$('#cor_fundo').val().changeColors;
 
 const transformKey  = key =>
@@ -41,10 +41,10 @@ const transformKey  = key =>
 
 const changeColors = (colors) =>{
      Object.keys(colors).map(key =>{
-        console.log(key)
+        //console.log(key)
          html.style.setProperty(transformKey(key), colors[key])    
             })
-    console.log(colors)
+    //console.log(colors)
     const temaAtual = {
         bg: getStyle(html, "--bg"),
         bgPanel: getStyle(html, "--bg-panel"),
@@ -59,12 +59,12 @@ const changeColors = (colors) =>{
      }
      if(colors.ligado == 1){
         $('#myToggle').prop('checked', true);
-        console.log('teste1', colors.ligado)
+        //console.log('teste1', colors.ligado)
 
      }else{
-        console.log('teste', colors.ligado)
+        //console.log('teste', colors.ligado)
      }
-     console.log(colors.ligado)
+     //console.log(colors.ligado)
     localStorage.setItem("theme", JSON.stringify(temaAtual));
 }
 
@@ -73,10 +73,10 @@ checkbox.addEventListener("change", ({target})=>{
 }) 
 tema.addEventListener('change', (event) => {
     html.style.setProperty("--tema-padrao", tema.value) 
-    console.log(tema.value)
+    //console.log(tema.value)
     const temaAtual1 = { temaPadrao: getStyle(html, "--tema-padrao") }
     localStorage.setItem("theme1", JSON.stringify(temaAtual1))
-    console.log("passou aqui");
+    //console.log("passou aqui");
 });
 
  if (localStorage.getItem('theme')) {
@@ -88,11 +88,11 @@ tema.addEventListener('change', (event) => {
     const tema1 = JSON.parse(tema1Carregado);
     html.style.setProperty("--tema-padrao", tema1.temaPadrao)
     tema.value = tema1.temaPadrao
-    console.log('TEMA ATUAL : ', tema1.temaPadrao);
+    //console.log('TEMA ATUAL : ', tema1.temaPadrao);
 
  }else{
     if(getStyle(html, "--bg") != "#333333"){
-        console.log('teste')
+        //console.log('teste')
     }
      const TemaAtual = {
         bg: getStyle(html, "--bg"),

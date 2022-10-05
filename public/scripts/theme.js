@@ -4,7 +4,7 @@ const transformKey  = key =>
 
 const changeColors = (colors) =>{
      Object.keys(colors).map(key =>{
-        console.log(key)
+        //console.log(key)
          html.style.setProperty(transformKey(key), colors[key])    
             });
 }
@@ -24,8 +24,8 @@ if (localStorage.getItem('theme')) {
     changeColors(JSON.parse(temaCarregado));
     const tema1 = JSON.parse(tema1Carregado);
     html.style.setProperty("--tema-padrao", tema1.temaPadrao)
-    console.log(temaCarregado)
-    console.log(tema1Carregado)
+    //console.log(temaCarregado)
+    //console.log(tema1Carregado)
  }else{
      const TemaAtual = {
         bg: getStyle(html, "--bg"),

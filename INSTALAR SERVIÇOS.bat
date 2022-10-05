@@ -1,4 +1,3 @@
 cd C:\Program Files (x86)\MAP Cardoso\injettv
-
-npm start
+node install_service.js
 

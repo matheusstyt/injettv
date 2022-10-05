@@ -2,8 +2,8 @@ require('dotenv').config();
 
 const Service = require('node-windows').Service,
     svc = new Service({
-        name:'SmartTV Injet',
-        description: 'Dashboard que exibe os indicadores',
+        name:'InjetTv Web - MAP 2',
+        description: 'Dashboard do InjetTv-Web 2.0',
         script: process.env.BIN_PATH
     });
 
