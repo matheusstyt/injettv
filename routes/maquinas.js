@@ -114,13 +114,14 @@ router
                 }
             }
             contador++;
-            console.log('time 1 : '+request.session.cfg.tempo_tran)
-            console.log('time 2 : '+request.session.cfg.slide)
+            console.log('legendas deu bom : '+request.session.cfg.legends)
+
             response.status(200).render('maquinas', {
                 colors1: legendaColors1,
                 colors2: legendaColors2,
                 x: 1,
                 pts: pts, 
+                legends: request.session.cfg.legends, 
                 secondsTransition: request.session.cfg.tempo_trans, 
                 slideTransition : request.session.cfg.slide,
                 cor_fundo: request.session.cfg.cor_fundo, 
@@ -209,13 +210,12 @@ router
         //console.log('galpao maquinas: ', request.session.cfg.galpao)
 
         contador++;
-        console.log('time 1 x: '+request.session.cfg.tempo_tran)
-        console.log('time 2 x : '+request.session.cfg.slide)
+        console.log('legendas deu bom : '+request.session.cfg.legends)
         response.status(200).render('maquinas', { 
             colors1: legendaColors1,
             colors2: legendaColors2,
-            x: 1,
             pts: pts, 
+            legends: request.session.cfg.legends, 
             secondsTransition: request.session.cfg.tempo_trans, 
             slideTransition : request.session.cfg.slide,
             cor_fundo: request.session.cfg.cor_fundo, 

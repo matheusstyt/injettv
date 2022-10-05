@@ -80,10 +80,9 @@ const express = require('express'),
             console.log('File uploaded!');
         });
     }
-    console.log("teste : "+time.getSlideTime(request.body.tempo_trans)) 
-    console.log("teste 1: "+time.getTime(request.body.tempo_trans)) 
     request.session.paineis = panel.selected(request.body);
     request.session.cfg = request.body;
+    request.session.cfg.legends = request.body.legendaOff
     request.session.cfg.slide = time.getSlideTime(request.body.tempo_trans)
     request.session.cfg.logo = logo.hasLogo();
     request.session.cfg.tempo_trans = time.getTime(request.body.tempo_trans);

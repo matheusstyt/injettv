@@ -20,7 +20,8 @@ html{
 }
 
 h3{
-    font-size: 2em;
+    font-size: 1.5em;
+    margin: 0.3em;
 }
 .row{
     margin: 0;
@@ -39,6 +40,38 @@ header {
         top: 0;
         margin: 25px 25px 0 0;
     }
+}
+.row-preferencias{
+    margin-left: 0.6em;
+    display: flex;
+    gap: 6em;
+}
+.row-preferencias h5{
+    font-size: 1.1em;
+}
+.caixa-continuar{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 0.5em 0 ;
+}
+.btn-continuar{
+    background-color:var(--tema-padrao);
+    height: 50%;
+    border-radius: 3px;
+    border: 1px solid var(--tema-padrao);
+    text-shadow: 1px 1px #fff;
+    padding: 8px;}
+.btn-continuar:active{
+    background-color: #333333;
+}
+.btn-continuar:hover{
+    border: 1px solid var(--bg);
+
+}
+input#tempo_trans{
+    margin-left: 0.6em;
 }
 .list {
     .inline-list {
@@ -70,21 +103,7 @@ h6 {
 button h6 {
     margin-left: -12.5px;
 }
-.btn-continuar{
-    background-color:var(--tema-padrao);
-    height: 50%;
-    margin: 0 auto;
-    border-radius: 3px;
-    border: 1px solid var(--tema-padrao);
-    text-shadow: 1px 1px #fff;
-    padding: 8px;}
-.btn-continuar:active{
-    background-color: #333333;
-}
-.btn-continuar:hover{
-    border: 1px solid var(--bg);
 
-}
 p{
     padding: 0;
     margin: 0;
@@ -160,7 +179,7 @@ h3, label{
 .container {
     background-color: var(--bg-container);
     margin: 0 auto;
-    padding: 0.5em 4em;
+    padding: 1em 4em;
     border-radius: 15px;
     display: block;
 }

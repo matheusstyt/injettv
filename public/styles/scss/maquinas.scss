@@ -100,8 +100,7 @@ p{
     padding: 0;
 }
 .legends{
-    position:flex;
-    display:block;
+    display:inline-block;
     float:left;
 }
 h2{
@@ -115,8 +114,9 @@ h5{
 }
 
 #updateMachine{
-    position: relative;
-    margin: 0.056% 1%;
+    position: absolute;
+    bottom: 0.056%;
+    left:  1%;
 }
 .quadrado-icons{
     width: 30px;

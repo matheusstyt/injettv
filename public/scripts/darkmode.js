@@ -3,7 +3,31 @@ const checkbox = document.querySelector("input[name=theme]");
 const tema = document.querySelector("input[name=cor_fundo]")
 const darkBtn = document.getElementsByName("theme")
 
+// SESSÃO DAS LEGENDAS
 
+const legendBtn = document.querySelector("input[name=legend]");
+let legendaAtual = 0
+if (localStorage.getItem('legends') == 1) {
+    $('#legendaOff').val(localStorage.getItem('legends')) 
+    $('#ToggleLegend').prop('checked', true);
+}else{
+    localStorage.setItem('legends', legendaAtual)
+
+    $('#legendaOff').val(legendaAtual) 
+}
+
+legendBtn.addEventListener("change", ({target})=>{ target.checked ? ativarL(1) : ativarL(0) });
+
+function ativarL(x){
+    legendaAtual = x
+    $('#legendaOff').val(legendaAtual) 
+    localStorage.setItem('legends', legendaAtual)
+    
+}
+
+// TÉRMINO DA SESSÃO DAS LEGENDAS
+
+// INICIO DE TEMA 
 const getStyle = (element, style) =>
     window
     .getComputedStyle(element)
@@ -33,18 +57,13 @@ const darkColors = {
     monocromaticColor: "#dddddd",
     ligado: 1
 }
-//console.log('colores : ', initialColors);
-//$('#cor_fundo').val().changeColors;
-
 const transformKey  = key =>
     "--" + key.replace(/([A-Z])/, "-$1").toLowerCase()
 
 const changeColors = (colors) =>{
      Object.keys(colors).map(key =>{
-        //console.log(key)
          html.style.setProperty(transformKey(key), colors[key])    
             })
-    //console.log(colors)
     const temaAtual = {
         bg: getStyle(html, "--bg"),
         bgPanel: getStyle(html, "--bg-panel"),
@@ -59,7 +78,6 @@ const changeColors = (colors) =>{
      }
      if(colors.ligado == 1){
         $('#myToggle').prop('checked', true);
-        //console.log('teste1', colors.ligado)
 
      }else{
         //console.log('teste', colors.ligado)
