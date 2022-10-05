@@ -1,4 +1,1 @@
-cd C:\Program Files (x86)\MAP Cardoso\injettv
-
-node uninstall_service.js
-
+sc delete injettvmap_innovation.exe

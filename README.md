@@ -26,33 +26,21 @@ Deve-se alterar o nome do arquivo para `.env` para habilitar execução da aplic
 
 ### Instalação
 
-Requer [NodeJS] v8+ e [Yarn] para instalação dos pacotes. Ao computador destinado a servidor requer acesso à Internet. Antes dos passos abaixo, previamente baixar e instalar o [NodeJS] no computador destinado a servidor de aplicação NodeJS.
-
-Instalando as dependências do projeto (após [NodeJS] instalado e [Yarn]): 
-
-```sh
-$ cd injetsmarttvweb
-$ yarn install
-```
+Basta baixar do repositório do Github ou Google Drive e extrair na pasta 'MAP Cardoso'
 
 ### Gerando o serviço via [node-windows]
 Após ter instalado as _dependências_.
 
 Instalando o serviço.
-```sh
-$ node install_service.js
-```
+Na raiz do injettv execute como Administrador o arquivo 'INSTALAR SERVIÇOS.bat'
+
+OBS: Utilizando um editor de texto, verifique se o caminho dentro desse arquivo está correto! 
 
 Desinstalando o serviço.
-```sh
-$ node uninstall_service.js
-```
+ 
+Na raiz do injettv execute como Administrador o arquivo 'DESINSTALAR SERVIÇOS.bat'
+E já
 
-[nodejs]: <https://nodejs.org/en/>
-[EJS]: <http://ejs.co/>
-[Express]: <https://expressjs.com/pt-br/>
-[Materialize]: <https://materializecss.com/>
-[Forever]:<https://www.npmjs.com/package/forever>
 [Axios]:<https://github.com/axios/axios>
 [node-windows]:<https://www.npmjs.com/package/node-windows>
 [yarn]:<https://yarnpkg.com/pt-BR/docs/install#windows-stable>
