@@ -92,7 +92,7 @@ function getToday(){
                         ultimaAtualizacao = getToday();
                        
                         //console.log("Chamada original "  + velocimetro.data);
-                        //console.log('bi : ', bi)
+                        console.log('bi : ', bi)
                         response.status(200).render('produtividade', {
                             velocimetro: velocimetro.data,
                             bi: bi.data,
@@ -119,8 +119,8 @@ function getToday(){
             }else{  
 
                 globalRequest = request;
-                //console.log('BI : ', biGlobal.data)
-
+                //console.log('Velocimetro : '+velocimetroGlobal.data)
+                console.log('bi : ', biGlobal.data)
                 response.status(200).render('produtividade', {
                     velocimetro: velocimetroGlobal.data,
                     bi: biGlobal.data,

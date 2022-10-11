@@ -54,12 +54,13 @@ canvas {
     background-color: var(--tema-padrao);
     color: white;
     strong {
-        font-size: 40px;
+        font-size: 2em;
     }
 }
 
 table {
     font-size: 1.4em;
+    margin: 0;
 }
 #updateProduction{
     font-size: 2.5em;
@@ -67,11 +68,11 @@ table {
     margin: 0;}
 
 th {
-    font-size:1.1em;
+    font-size:1em;
     text-align: center;
 }
 td {
-    font-size:1.4em;
+    font-size:1.2em;
     font-weight: bold;
     text-align: center;
 }
