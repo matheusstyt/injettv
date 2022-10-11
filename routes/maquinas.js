@@ -18,9 +18,18 @@ function getToday(){
     var dd = String(today.getDate()).padStart(2, '0');
     var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
     var yyyy = today.getFullYear();
-
-    today = mm + '/' + dd + '/' + yyyy + "  " + today.getHours()+":"+today.getMinutes()+":"+today.getSeconds()
+    var h = today.getHours(), m = today.getMinutes(), s = today.getSeconds()
     
+    if(String(today.getHours()).length < 2){
+        h = '0'+String(today.getHours())
+    }
+    if(String(today.getMinutes()).length < 2){
+        m = '0'+String(today.getMinutes())
+    }
+    if(String(today.getSeconds()).length < 2){
+        s = '0'+String(today.getSeconds())
+    }
+    today = mm + '/' + dd + '/' + yyyy + "  " + h+":"+m+":"+s
     return today;
 }
 

@@ -7,7 +7,25 @@ const express = require('express'),
     maquinas = require('./../helpers/maquinas'),
     json = require('flatted');
     
-    //console.log("0")
+    function getToday(){
+        var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+        var yyyy = today.getFullYear();
+        var h = today.getHours(), m = today.getMinutes(), s = today.getSeconds()
+        
+        if(String(today.getHours()).length < 2){
+            h = '0'+String(today.getHours())
+        }
+        if(String(today.getMinutes()).length < 2){
+            m = '0'+String(today.getMinutes())
+        }
+        if(String(today.getSeconds()).length < 2){
+            s = '0'+String(today.getSeconds())
+        }
+        today = mm + '/' + dd + '/' + yyyy + "  " + h+":"+m+":"+s
+        return today;
+    }
 
 router.get('/', (request, response) => {
     //console.log("0.1")
@@ -19,29 +37,54 @@ router.get('/', (request, response) => {
     ])
     .then(
         axios.spread((paradas, alertas) => {
-            
-        //console.log("0.4")
+
         let alerta = [], parada = [], pts = [], pts_ = [];
-        //console.log("tamanho paradas: " + paradas.data.paradasGalpao.length);
+        
+        // FORMATANDO O HORÁRIO
+        let formatado = ''
         for (var par = 0; par < paradas.data.paradasGalpao.length;par++ ){
-            //console.log(paradas.data.paradasGalpao[par])
+            
+            let tempoFormatado = paradas.data.paradasGalpao[par].tempoParado.split(":");
+
+            if( tempoFormatado[0].length < 2 ){
+                tempoFormatado[0] = '0'+tempoFormatado[0]
+            }
+            if( tempoFormatado[1].length < 2 ){
+                tempoFormatado[1] = '0'+tempoFormatado[1]
+            }
+            if( tempoFormatado[2].length < 2 ){
+                tempoFormatado[2] = '0'+tempoFormatado[2]
+            }
+
+            formatado = tempoFormatado[0]+':'+tempoFormatado[1]+':'+tempoFormatado[2]
+         
             parada.push({
                 cdPt: paradas.data.paradasGalpao[par].cdInjetora,
-                tempo: paradas.data.paradasGalpao[par].tempoParado,
+                tempo: formatado,
                 descricao: paradas.data.paradasGalpao[par].dsParada,
                 cor: '#ff0000'
             });
         }
-        // ultimaAtualizacao = getToday();
-        
-        //console.log(parada.length)
-       
 
         for (var ale = 0; ale < alertas.data.alertasGalpao.length;ale++ ){
+            
+            let alertaFormatado = alertas.data.alertasGalpao[ale].tempoAlerta.split(":");
+            //console.log('opa : '+alertas.data.alertasGalpao[ale].tempoAlerta)
+            if( alertaFormatado[0].length < 2 ){
+                alertaFormatado[0] = '0'+alertaFormatado[0]
+            }
+            if( alertaFormatado[1].length < 2 ){
+                alertaFormatado[1] = '0'+alertaFormatado[1]
+            }
+            if( alertaFormatado[2].length < 2 ){
+                alertaFormatado[2] = '0'+alertaFormatado[2]
+            }
 
+            formatado = alertaFormatado[0]+':'+alertaFormatado[1]+':'+alertaFormatado[2]
+            //console.log('formatado : '+formatado)
             alerta.push({
                 cdPt: alertas.data.alertasGalpao[ale].cdInjetora,
-                tempo: alertas.data.alertasGalpao[ale].tempoAlerta,
+                tempo: formatado,
                 descricao: alertas.data.alertasGalpao[ale].dsAlerta,
                 cor: '#ff8b16'
             });
@@ -78,6 +121,7 @@ router.get('/', (request, response) => {
         //console.log("4")
         response.status(200).render('paradas', { pts: pts, 
             secondsTransition: request.session.cfg.tempo_trans, 
+            ultimaAtualizacao: getToday(),
             slideTransition : request.session.cfg.slide,
             cor_fundo: request.session.cfg.cor_fundo, 
             nextPage: panel.switch(request.baseUrl, request.session.paineis), 
@@ -124,6 +168,8 @@ router.get('/', (request, response, next) => {
                         //console.log('Fui')
                     }
                     else{ if(detalheLista.data[i].paradaResumo.dataInicio !== '') {
+                        console.log(data.dhms(`${detalheLista.data[i].paradaResumo.dataInicio} ${detalheLista.data[i].paradaResumo.horaInicio}`))
+
                         parada.push({
                             cdPt: detalheLista.data[i].cdPt,
                             tempo: data.dhms(`${detalheLista.data[i].paradaResumo.dataInicio} ${detalheLista.data[i].paradaResumo.horaInicio}`),
@@ -133,6 +179,7 @@ router.get('/', (request, response, next) => {
                     }}
 
                     if (detalheLista.data[i].alertas != '' && detalheLista.data[i].alertas[detalheLista.data[i].alertas.length - 1].dtHrFim == '') {
+                        console.log(data.dhms(detalheLista.data[i].alertas[detalheLista.data[i].alertas.length - 1].dtHrInicio))
                         alerta.push({
                             cdPt: detalheLista.data[i].cdPt,
                             tempo: data.dhms(detalheLista.data[i].alertas[detalheLista.data[i].alertas.length - 1].dtHrInicio),
@@ -156,6 +203,7 @@ router.get('/', (request, response, next) => {
 
                 response.status(200).render('paradas', { 
                     pts: pts, 
+                    ultimaAtualizacao: getToday(),
                     secondsTransition: request.session.cfg.tempo_trans, 
                     slideTransition : request.session.cfg.slide,
                     cor_fundo: request.session.cfg.cor_fundo, 
