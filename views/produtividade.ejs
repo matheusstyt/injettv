@@ -56,7 +56,7 @@
                                 </div>
                             </div>
                             <div class="row center-align">
-                                <strong>Utilização (<span id=utilizacaoValue><%=velocimetro.indicadores.indUtilizacao%></span>)</strong>
+                                <strong>Eficiência Realização (<span id=utilizacaoValue><%=velocimetro.indicadores.efiRea%></span>)</strong>
                             </div>
                         </div>
                         <div class="col l3">
@@ -66,7 +66,7 @@
                                 </div>
                             </div>
                             <div class="row center-align">
-                                <strong>Refugo (<span id=refugoValue><%=velocimetro.indicadores.indRef%></span>)</strong>
+                                <strong>Eficiência Ciclo (<span id=refugoValue><%=velocimetro.indicadores.efiCic%></span>)</strong>
                             </div>
                         </div>
                     </div>
@@ -101,18 +101,18 @@
                             <td><%=bi.indicadores.eficiencia%>%</td>
                         </tr>
                         <tr>
-                            <td>% Utilização</td>
+                            <td>Produção Líquida</td>
                             <% bi.indicadoresTurno.forEach(function(indicadoresTurno){ %>
-                                <td><%=indicadoresTurno.indicadores.indUtilizacao%>%</td>
+                                <td><%=parseInt(indicadoresTurno.indicadores.pcsProdLiquida)%></td>
                             <% }); %>
-                            <td><%=bi.indicadores.indUtilizacao%>%</td>
+                            <td><%=parseInt(bi.indicadores.pcsProdLiquida)%></td>
                         </tr>
                         <tr>
-                            <td>% Refugo</td>
+                            <td>% Eficiência Ciclo</td>
                             <% bi.indicadoresTurno.forEach(function(indicadoresTurno){ %>
-                                <td><%=indicadoresTurno.indicadores.indRef%>%</td>
+                                <td><%=indicadoresTurno.indicadores.efiCic%>%</td>
                             <% }); %>
-                            <td><%=bi.indicadores.indRef%>%</td>
+                            <td><%=bi.indicadores.efiCic%>%</td>
                         </tr>
 
                     </table>
