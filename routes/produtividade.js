@@ -128,7 +128,7 @@ function getToday(){
             }else{  
 
                 globalRequest = request;
-                //console.log('BI : ', biGlobal.data)
+                console.log('BI : ', biGlobal.data)
 
                 response.status(200).render('produtividade', {
                     velocimetro: velocimetroGlobal.data,
@@ -177,7 +177,7 @@ async function produtividadeTask(request){
                         biGlobal = bi;
                         turnoGlobal = turnos;  
                         ultimaAtualizacao = getToday();
-                    //console.log('BI : ', bi)
+                        console.log('BI : ', biGlobal)
                     //("passou pelo metodo task");
 
                 }))

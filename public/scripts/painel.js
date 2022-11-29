@@ -11,9 +11,7 @@ salvar.addEventListener("change", ({target})=>{
  function ligado(x){
     if(x == 1){
         Y = x;
-        alert(x)
     }else{
-        alert(x)
         Y = x;
     }
 }
