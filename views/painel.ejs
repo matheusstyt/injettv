@@ -20,7 +20,7 @@
         <span><h1>INJET TV - Painel de Controle</h1></span>
         <img src="<%=logo%>" alt=Logo >
     </header>
-    <main class=container>
+    <main class=container1>
         <form id="ok" class="col s12" action="<%=configPath%>/painel/config" method=POST enctype=multipart/form-data>
             <h3 style="display:none;">Configurações Adicionais</h3>
             <div class="row" style="display:none; display: flex; width: 100%; padding-left: 26px;">
@@ -36,6 +36,22 @@
             </div>
             
             <div>
+                <div class="row row-flex">
+                    <div class="content-nome-galpao">
+                        <h3 style="display: inline;" >Nome</h3>  
+                        <input placeholder="Insira o nome do galpão" type=text id=nome_fabrica name=nome_fabrica pattern=\d*>
+                    </div>
+                    
+                    <div class="content-carregar-galpao">
+                        <h3 for="options-fabricas">Carregar galpão</h3>
+                        <select name="options-fabricas" id="options-fabricas" value="galpao">
+                            <option value="fabrica 1">fabrica 1</option>
+                            <option value="fabrica 2">fabrica 2</option>
+                            <option value="fabrica 3">fabrica 3</option>
+
+                        </select>
+                    </div>
+                </div>  
                 <div class=row> 
                     <h3>Mostrar Telas</h3>
                 </div>
@@ -131,7 +147,7 @@
             
             </div>
             <div class="caixa-continuar"> 
-                <button  class="row btn-continuar waves-effect waves-light" type=submit id=enviar name=enviar>CONTINUAR</button>
+                <button  class="row btn-continuar waves-effect waves-light" type=submit id=enviar name=enviar>SALVAR</button>
             </div>
  
            

@@ -18,9 +18,11 @@ html{
     --color-text: #333333;
     --color-title: #262626;
 }
-
+h1{
+    font-size: 4vmax;
+}
 h3{
-    font-size: 1.5em;
+    font-size: 1.3vmax;
     margin: 0.2vmax;
 }
 .row{
@@ -33,13 +35,33 @@ header {
         font-size: 2.3em;
     }
     img {
-        width: 150px;
-        height: 150px;
+        width: 8vmax;
+        height: 8vmax;
         position: absolute;
         right: 0;
         top: 0;
-        margin: 25px 25px 0 0;
+        margin: 1.5vmax 2vmax 0 0;
     }
+}
+.row-flex{
+    background-color: rgb(63, 63, 63);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1vmax;
+    padding: 0.3vmax;
+}
+.content-nome-galpao{
+    display: inline-block;
+    width: 49%;
+
+}
+.content-carregar-galpao{
+    display: inline-block;
+    width: 49%;
+    background-color: rgb(24, 24, 24);
+    border-radius: 1vmax;
+    padding: 0.3vmax;
 }
 .row-preferencias{
     margin-left: 0.6em;
@@ -70,6 +92,9 @@ header {
     border: 1px solid var(--bg);
 
 }
+input[type=text]{
+    font-size: 1vmax;
+}
 input#tempo_trans{
     margin-left: 0.6em;
 }
@@ -80,7 +105,7 @@ input#tempo_trans{
     }
 }
 .input-field label.active, span {
-    font-size: 1.4rem;
+    font-size: 1.3vmax;
 }
 /* label focus color */
 .input-field input[type=text]:focus + label {
@@ -95,12 +120,12 @@ h4{
     margin: 0;
 }
 h5{
-    font-size: 14px;
+    font-size: 1vmax;
     margin: 10px auto;
     
 }
 h6 {
-    font-size: 14px;
+    font-size: 1vmax;
     margin-left: -6.5px;
 }
 button h6 {
@@ -179,10 +204,10 @@ h3, label{
 ::placeholder{
     color: var(--color-text);
 }
-.container {
+.container1 {
     background-color: var(--bg-container);
     margin: 0 auto;
-    padding: 0.8vmax 4em;
+    width: 65vw;    padding: 0.8vmax 4em;
     border-radius: 15px;
     display: block;
 }
