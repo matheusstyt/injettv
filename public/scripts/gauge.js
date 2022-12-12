@@ -16,7 +16,7 @@ $.fn.gauge = function (opts) {
 };
 
 var speeds = [
-    {
+    {   
         id: 'eficiencia',
         value: $('#eficienciaValue').text()
     },

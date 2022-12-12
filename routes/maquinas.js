@@ -49,7 +49,7 @@ router
     .get(`${process.env.API_URL}/idw/rest/injet/monitorizacao/turnoAtual`)
     .then(turnoAtual => {
     
-        axios.post(`${process.env.API_URL}/idw/rest/injet/monitorizacao`, {
+        axios.post(`${process.env.API_URL}/idw/rest/v2/injet/monitorizacao/postosativos`, {
             idTurno: turnoAtual.data.idTurno,
             filtroOp: 0,
             cdGt: request.session.cfg.galpao,
@@ -239,7 +239,7 @@ router
     axios
     .get(`${process.env.API_URL}/idw/rest/injet/monitorizacao/turnoAtual`)
     .then(turnoAtual => {
-        axios.post(`${process.env.API_URL}/idw/rest/injet/monitorizacao`, {
+        axios.post(`${process.env.API_URL}/idw/rest/v2/injet/monitorizacao/postosativos`, {
             idTurno: turnoAtual.data.idTurno,
             filtroOp: 0,
             cdGt: request.body.galpao,
@@ -258,7 +258,7 @@ async function maquinasTask(request){
    await axios
    .get(`${process.env.API_URL}/idw/rest/injet/monitorizacao/turnoAtual`)
    .then(turnoAtual => {
-       axios.post(`${process.env.API_URL}/idw/rest/injet/monitorizacao`, {
+       axios.post(`${process.env.API_URL}/idw/rest/v2/injet/monitorizacao/postosativos`, {
            idTurno: turnoAtual.data.idTurno,
            filtroOp: 0,
            cdGt: globalRequest.session.cfg.galpao,

@@ -1,6 +1,7 @@
 const produtividade = require('./produtividade'),
     tela3 = require('./cookies'),
     maquinas = require('./maquinas'),
+    login = require('./login.js'),
     painel = require('./painel'),
     injettv = require('./injettv'),
     paradas = require('./paradas'),
